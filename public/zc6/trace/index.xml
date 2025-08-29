@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trace d&#39;exécution et messages d&#39;erreurs :: Soutien en programmation</title>
+    <link>https://example.org/zc6/trace/index.html</link>
+    <description>Quand et où ? Mardi 16 septembre de 12:00 à 14:00&#34; Local : B-3317 Fiches aide-mémoire À VENIR&#xA;Atelier intéractif À VENIR</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/zc6/trace/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

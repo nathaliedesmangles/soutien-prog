@@ -1,15 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
-  </url><url>
-    <loc>https://example.org/zc6/</loc>
-  </url><url>
-    <loc>https://example.org/3e5/</loc>
-  </url><url>
-    <loc>https://example.org/categories/</loc>
-  </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://example.org/3e5/html-css/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/zc6/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/zc6/trace/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/3e5/js/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/3e5/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/zc6/boucles-debug/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/zc6/fonctions-if/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>https://example.org/tags/index.html</loc>
   </url>
 </urlset>

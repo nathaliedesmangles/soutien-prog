@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Soutien en programmation on My New Hugo Site</title>
-    <link>https://example.org/</link>
-    <description>Recent content in Soutien en programmation on My New Hugo Site</description>
+    <title>Soutien en programmation</title>
+    <link>https://example.org/index.html</link>
+    <description>Objectifs Offrir un accompagnement régulier, personnalisé et ciblé aux étudiant·es ayant des difficultés ou ayant échoué un cours de programmation, afin d’augmenter leur compréhension des notions clés et leur réussite des cours de programmation (ZC6 et 3E5).&#xA;Format de l’activité Rencontres en petits groupes (8 à 15 étudiants·es maximum). Approche interactive basée sur les questions et lacunes des étudiant·es. Révision de concepts fondamentaux et exercices pratiques. Distribution de résumés de concepts.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soutien pour le ZC6</title>
+      <link>https://example.org/zc6/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/zc6/index.html</guid>
+      <description>Sujets ciblés Trace d’exécution et messages d’erreurs&#xA;Semaine #4: Mardi 16 septembre&#xA;Sous-programme et structures conditionnelles&#xA;Semaine #7: Mardi 14 octobre (à confirmer)&#xA;Boucles et débogueur&#xA;Semaine #11: Mardi 13 novembre (à confirmer)</description>
+    </item>
+    <item>
+      <title>Soutien pour le 3E5</title>
+      <link>https://example.org/3e5/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/3e5/index.html</guid>
+      <description>Sujets ciblés HTML &amp; CSS&#xA;Semaine #5: Mardi 23 septembre (sujets et date à confirmer)&#xA;JavaScript&#xA;Semaine #13: Mardi 25 octobre (sujets et date à confirmer)</description>
+    </item>
   </channel>
 </rss>

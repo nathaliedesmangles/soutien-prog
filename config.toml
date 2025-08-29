@@ -1,1 +1,6 @@
-theme="relearn"
+theme = "relearn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "SEARCH"]
+

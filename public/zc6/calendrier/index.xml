@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calendrier soutien ZC6 :: Soutien en programmation</title>
+    <link>http://localhost:1313/zc6/calendrier/index.html</link>
+    <description>📅 Calendrier des ateliers / fiches Java – 1re session Semaine Date Sujets Fiches associées 4 16 septembre Trace, sous-prog, messages d’erreurs, compilation Fiches 1 à 3 8 21 octobre Fiche 6 11* 13 novembre* Fiche 7 14 2 décembre Fiche 8 📅 Calendrier des ateliers / fiches Web – 3e session Semaine Date Sujets Fiches associées 5 22 septembre Fiche 1, Fiche 2 9 28 octobre Fiche 6 12 18 novembre Fiche 7 14 2 décembre Fiche 8 ✅ Suggestions pédagogiques Semaine 4 : Base Introduire la syntaxe, variables, types, affichages simples (Fiches 1–3).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/zc6/calendrier/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

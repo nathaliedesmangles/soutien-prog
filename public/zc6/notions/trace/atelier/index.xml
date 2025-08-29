@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atelier pratique : Traces d’exécution :: Soutien en programmation</title>
+    <link>http://localhost:1313/zc6/notions/trace/atelier/index.html</link>
+    <description>🎯 Objectifs pédagogiques Comprendre le rôle de la trace d’exécution comme outil de vérification. Construire un tableau de trace à partir d’un algorithme. Développer de la rigueur dans l’exécution pas-à-pas d’un algorithme. Identifier et corriger des erreurs grâce à la trace. ⏱️ Déroulement (1h30) 1. Introduction &amp; rappel (10 min) L’enseignant projette un algorithme simple et sa trace complétée (exemple du produit avec taxes).&#xA;Discussion rapide :&#xA;Pourquoi une trace d’exécution aide-t-elle à comprendre un algorithme ?</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/zc6/notions/trace/atelier/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

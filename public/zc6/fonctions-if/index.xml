@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sous-programmes et structures conditionnelles :: Soutien en programmation</title>
+    <link>https://example.org/zc6/fonctions-if/index.html</link>
+    <description>Sous-programmes (procédures et fonctions)1 Structures conditionnelles Images proviennent du site WayToLearnX ↩︎</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/zc6/fonctions-if/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

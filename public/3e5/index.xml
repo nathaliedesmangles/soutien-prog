@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Calendrier soutien 3E5 on My New Hugo Site</title>
-    <link>https://example.org/3e5/</link>
-    <description>Recent content in Calendrier soutien 3E5 on My New Hugo Site</description>
+    <title>Soutien pour le 3E5 :: Soutien en programmation</title>
+    <link>https://example.org/3e5/index.html</link>
+    <description>Sujets ciblés HTML &amp; CSS&#xA;Semaine #5: Mardi 23 septembre (sujets et date à confirmer)&#xA;JavaScript&#xA;Semaine #13: Mardi 25 octobre (sujets et date à confirmer)</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/3e5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML et CSS</title>
+      <link>https://example.org/3e5/html-css/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/3e5/html-css/index.html</guid>
+      <description>À venir</description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://example.org/3e5/js/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/3e5/js/index.html</guid>
+      <description>À venir</description>
+    </item>
   </channel>
 </rss>

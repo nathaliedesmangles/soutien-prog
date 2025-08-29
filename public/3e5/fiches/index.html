@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.126.3">
+    <meta name="generator" content="Relearn 7.6.1+b0c6bb558d7728ac4535a2ac677c5f47297203cc">
+    <meta name="description" content="Parfait 👍 Voici une proposition de fiches pédagogiques classées par difficulté pour les notions où les débutants en JavaScript rencontrent souvent des difficultés :
+📘 Fiches pédagogiques – JavaScript pour débutants 🟢 Niveau 1 – Les bases Variables et constantes
+let, const, var : différences et bonnes pratiques Types de données de base : string, number, boolean, null, undefined Exercices : déclarer des variables et les afficher avec console.log() Concaténation et interpolation de chaînes">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Liste des fiches :: Soutien en programmation">
+    <meta name="twitter:description" content="Parfait 👍 Voici une proposition de fiches pédagogiques classées par difficulté pour les notions où les débutants en JavaScript rencontrent souvent des difficultés :
+📘 Fiches pédagogiques – JavaScript pour débutants 🟢 Niveau 1 – Les bases Variables et constantes
+let, const, var : différences et bonnes pratiques Types de données de base : string, number, boolean, null, undefined Exercices : déclarer des variables et les afficher avec console.log() Concaténation et interpolation de chaînes">
+    <meta property="og:url" content="http://localhost:1313/3e5/fiches/index.html">
+    <meta property="og:site_name" content="Soutien en programmation">
+    <meta property="og:title" content="Liste des fiches :: Soutien en programmation">
+    <meta property="og:description" content="Parfait 👍 Voici une proposition de fiches pédagogiques classées par difficulté pour les notions où les débutants en JavaScript rencontrent souvent des difficultés :
+📘 Fiches pédagogiques – JavaScript pour débutants 🟢 Niveau 1 – Les bases Variables et constantes
+let, const, var : différences et bonnes pratiques Types de données de base : string, number, boolean, null, undefined Exercices : déclarer des variables et les afficher avec console.log() Concaténation et interpolation de chaînes">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Liste des fiches :: Soutien en programmation">
+    <meta itemprop="description" content="Parfait 👍 Voici une proposition de fiches pédagogiques classées par difficulté pour les notions où les débutants en JavaScript rencontrent souvent des difficultés :
+📘 Fiches pédagogiques – JavaScript pour débutants 🟢 Niveau 1 – Les bases Variables et constantes
+let, const, var : différences et bonnes pratiques Types de données de base : string, number, boolean, null, undefined Exercices : déclarer des variables et les afficher avec console.log() Concaténation et interpolation de chaînes">
+    <meta itemprop="wordCount" content="389">
+    <title>Liste des fiches :: Soutien en programmation</title>
+    <link href="/3e5/fiches/index.xml" rel="alternate" type="application/rss+xml" title="Liste des fiches :: Soutien en programmation">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1756485159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1756485159" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1756485159" rel="stylesheet">
+    <link href="/css/theme.css?1756485159" rel="stylesheet">
+    <link href="/css/format-html.css?1756485159" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1756485159" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1756485159" defer></script>
+    <script src="/js/lunr/lunr.min.js?1756485159" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1756485159" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1756485159" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1756485159" defer></script>
+    <script src="/js/search.js?1756485159" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/3e5\/fiches\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.contentLangs=['en'];
+      window.relearn.index_js_url="/searchindex.en.js?1756485159";
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/3e5/fiches/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#-niveau-1--les-bases">🟢 Niveau 1 – Les bases</a></li>
+    <li><a href="#-niveau-2--logique-et-structures-de-contrôle">🟡 Niveau 2 – Logique et structures de contrôle</a></li>
+    <li><a href="#-niveau-3--tableaux-et-objets">🔵 Niveau 3 – Tableaux et objets</a></li>
+    <li><a href="#-niveau-4--fonctions-et-portée">🟣 Niveau 4 – Fonctions et portée</a></li>
+    <li><a href="#-niveau-5--dom-et-événements">🔴 Niveau 5 – DOM et événements</a></li>
+    <li><a href="#-niveau-6--débogage-et-bonnes-pratiques">⚡ Niveau 6 – Débogage et bonnes pratiques</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Soutien en programmation</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/3e5/index.html"><span itemprop="name">Soutien pour le 3E5</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
+            <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Liste des fiches</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/3e5/notions/index.html" title="Liste des notions (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 3e5" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="liste-des-fiches">Liste des fiches</h1>
+
+<p>Parfait 👍 Voici une <strong>proposition de fiches pédagogiques classées par difficulté</strong> pour les notions où les débutants en <strong>JavaScript</strong> rencontrent souvent des difficultés :</p>
+<hr>
+<h1 id="-fiches-pédagogiques--javascript-pour-débutants">📘 Fiches pédagogiques – JavaScript pour débutants</h1>
+<h2 id="-niveau-1--les-bases">🟢 Niveau 1 – Les bases</h2>
+<ol>
+<li>
+<p><strong>Variables et constantes</strong></p>
+<ul>
+<li><code>let</code>, <code>const</code>, <code>var</code> : différences et bonnes pratiques</li>
+<li>Types de données de base : <code>string</code>, <code>number</code>, <code>boolean</code>, <code>null</code>, <code>undefined</code></li>
+<li>Exercices : déclarer des variables et les afficher avec <code>console.log()</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Concaténation et interpolation de chaînes</strong></p>
+<ul>
+<li>Concaténation avec <code>+</code></li>
+<li>Templates strings avec <code>`${variable}`</code></li>
+<li>Exercice : afficher un message personnalisé</li>
+</ul>
+</li>
+<li>
+<p><strong>Entrées et sorties</strong></p>
+<ul>
+<li><code>alert()</code>, <code>prompt()</code>, <code>confirm()</code></li>
+<li><code>console.log()</code> pour déboguer</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="-niveau-2--logique-et-structures-de-contrôle">🟡 Niveau 2 – Logique et structures de contrôle</h2>
+<ol start="4">
+<li>
+<p><strong>Opérateurs logiques et comparaisons</strong></p>
+<ul>
+<li><code>==</code> vs <code>===</code></li>
+<li><code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code>, <code>!==</code></li>
+<li>Exercice : tester si un utilisateur est majeur</li>
+</ul>
+</li>
+<li>
+<p><strong>Conditions <code>if...else</code> et <code>switch</code></strong></p>
+<ul>
+<li>Syntaxe</li>
+<li>Cas pratiques (validation simple de formulaire)</li>
+</ul>
+</li>
+<li>
+<p><strong>Boucles (<code>for</code>, <code>while</code>, <code>for...of</code>)</strong></p>
+<ul>
+<li>Boucle avec compteur</li>
+<li>Boucle sur tableau</li>
+<li>Erreurs fréquentes : boucles infinies</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="-niveau-3--tableaux-et-objets">🔵 Niveau 3 – Tableaux et objets</h2>
+<ol start="7">
+<li>
+<p><strong>Tableaux (<code>Array</code>)</strong></p>
+<ul>
+<li>Déclaration : <code>let fruits = [&quot;pomme&quot;, &quot;banane&quot;];</code></li>
+<li>Méthodes utiles : <code>.push()</code>, <code>.pop()</code>, <code>.length</code>, <code>.forEach()</code></li>
+<li>Exercice : afficher tous les éléments d’un tableau</li>
+</ul>
+</li>
+<li>
+<p><strong>Objets (<code>Object</code>)</strong></p>
+<ul>
+<li>Déclaration : <code>{clé: valeur}</code></li>
+<li>Accès aux propriétés : <code>obj.nom</code> ou <code>obj[&quot;nom&quot;]</code></li>
+<li>Exercice : créer un objet représentant un étudiant</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="-niveau-4--fonctions-et-portée">🟣 Niveau 4 – Fonctions et portée</h2>
+<ol start="9">
+<li>
+<p><strong>Fonctions</strong></p>
+<ul>
+<li>Déclaration classique vs fonction fléchée</li>
+<li>Paramètres et valeurs de retour</li>
+<li>Exercice : fonction qui calcule une aire de cercle</li>
+</ul>
+</li>
+<li>
+<p><strong>Portée des variables (<code>scope</code>)</strong></p>
+<ul>
+<li>Locale vs globale</li>
+<li>Erreurs fréquentes : variable non définie</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="-niveau-5--dom-et-événements">🔴 Niveau 5 – DOM et événements</h2>
+<ol start="11">
+<li>
+<p><strong>Sélection et manipulation du DOM</strong></p>
+<ul>
+<li><code>document.querySelector()</code> / <code>getElementById()</code></li>
+<li>Modifier texte, attributs, classes, styles</li>
+<li>Exercice : changer la couleur d’un paragraphe</li>
+</ul>
+</li>
+<li>
+<p><strong>Événements (<code>addEventListener</code>)</strong></p>
+<ul>
+<li>Clic, saisie clavier, survol</li>
+<li>Erreurs fréquentes : fonction non appelée</li>
+<li>Exercice : bouton qui affiche/masque un élément</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="-niveau-6--débogage-et-bonnes-pratiques">⚡ Niveau 6 – Débogage et bonnes pratiques</h2>
+<ol start="13">
+<li>
+<p><strong>Erreurs fréquentes et console</strong></p>
+<ul>
+<li>
+<p>Lire les messages d’erreur</p>
+</li>
+<li>
+<p><code>console.log()</code>, <code>console.error()</code></p>
+</li>
+<li>
+<p>Erreurs typiques :</p>
+<ul>
+<li>Oublier les parenthèses <code>()</code> d’une fonction</li>
+<li>Mélanger <code>=</code> (assignation) et <code>==</code> (comparaison)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Organisation et clarté du code</strong></p>
+<ul>
+<li>Indentation</li>
+<li>Nommage clair des variables et fonctions</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p>👉 Chaque fiche pourrait tenir sur <strong>1 page recto</strong> avec :</p>
+<ul>
+<li>Une <strong>explication claire et visuelle</strong></li>
+<li>Un <strong>exemple de code minimaliste</strong></li>
+<li>1 ou 2 <strong>petits exercices pratiques</strong></li>
+</ul>
+<p>Veux-tu que je commence à <strong>rédiger une première fiche complète en .html/.js</strong> (par exemple sur les <strong>variables et constantes</strong>), que tu pourrais donner directement à tes étudiants ?</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+            <div class="logo-title">Soutien en programmation</div>
+          </a>
+        </div>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/zc6/index.html"><a class="padding" href="/zc6/index.html">Soutien pour le ZC6</a><ul id="R-subsections-28fc7c7c7c86328eb843fd2c22a3a845" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/3e5/index.html"><a class="padding" href="/3e5/index.html">Soutien pour le 3E5</a><ul id="R-subsections-62b251c47d5546c8d117d60a33ea5060" class="collapsible-menu">
+            <li class="" data-nav-id="/3e5/notions/index.html"><a class="padding" href="/3e5/notions/index.html">Liste des notions</a></li>
+            <li class="active " data-nav-id="/3e5/fiches/index.html"><a class="padding" href="/3e5/fiches/index.html">Liste des fiches</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/js/clipboard/clipboard.min.js?1756485159" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1756485159" defer></script>
+    <script src="/js/theme.js?1756485159" defer></script>
+  </body>
+</html>
