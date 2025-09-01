@@ -1,8 +1,8 @@
 var relearn_searchindex = [
   {
     "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le 3E5",
-    "content": "À venir",
-    "description": "À venir",
+    "content": "Sujets À Déterminer\nQuand et où ? Mardi 23 septembre de 12:00 à 14:00 Local : B-3317",
+    "description": "Sujets À Déterminer\nQuand et où ? Mardi 23 septembre de 12:00 à 14:00 Local : B-3317",
     "tags": [],
     "title": "HTML et CSS",
     "uri": "/3e5/html-css/index.html"
@@ -33,11 +33,19 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le 3E5",
-    "content": "À venir",
-    "description": "À venir",
+    "content": "Sujets À Déterminer\nQuand et où ? Mardi 25 octobre de 12:00 à 14:00 Local : B-3317",
+    "description": "Sujets À Déterminer\nQuand et où ? Mardi 25 octobre de 12:00 à 14:00 Local : B-3317",
     "tags": [],
     "title": "JavaScript",
     "uri": "/3e5/js/index.html"
+  },
+  {
+    "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le ZC6",
+    "content": "Quand et où ? Mardi 7 ou 14 octobre de 12:00 à 14:00 (**à confirmer) Local : B-3317 Sous-programmes (procédures et fonctions)1 Structures conditionnelles Images proviennent du site WayToLearnX ↩︎",
+    "description": "Quand et où ? Mardi 7 ou 14 octobre de 12:00 à 14:00 (**à confirmer) Local : B-3317 Sous-programmes (procédures et fonctions)1 Structures conditionnelles Images proviennent du site WayToLearnX ↩︎",
+    "tags": [],
+    "title": "Sous-programmes et structures conditionnelles",
+    "uri": "/zc6/fonctions-if/index.html"
   },
   {
     "breadcrumb": "Soutien en programmation",
@@ -49,19 +57,27 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le ZC6",
-    "content": "Boucles1 Boucle for Boucle while Boucle do while Débogueur Images proviennent du site WayToLearnX ↩︎",
-    "description": "Boucles1 Boucle for Boucle while Boucle do while Débogueur Images proviennent du site WayToLearnX ↩︎",
+    "content": "Quand et où ? Jeudi 13 novembre de 12:00 à 14:00 (horaire du mardi) Local : B-3317 Boucles1 (à venir) Boucle for Boucle while Boucle do while Débogueur Images proviennent du site WayToLearnX ↩︎",
+    "description": "Quand et où ? Jeudi 13 novembre de 12:00 à 14:00 (horaire du mardi) Local : B-3317 Boucles1 (à venir) Boucle for Boucle while Boucle do while Débogueur Images proviennent du site WayToLearnX ↩︎",
     "tags": [],
     "title": "Boucles et débogueur",
     "uri": "/zc6/boucles-debug/index.html"
   },
   {
-    "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le ZC6",
-    "content": "Sous-programmes (procédures et fonctions)1 Structures conditionnelles Images proviennent du site WayToLearnX ↩︎",
-    "description": "Sous-programmes (procédures et fonctions)1 Structures conditionnelles Images proviennent du site WayToLearnX ↩︎",
+    "breadcrumb": "Soutien en programmation",
+    "content": "Sujets ciblés Git et GitHub\nSemaine #?: Mardi ? de 12:00 à 13:30\nDépots local et distant Clone, push et pull",
+    "description": "Sujets ciblés Git et GitHub\nSemaine #?: Mardi ? de 12:00 à 13:30\nDépots local et distant Clone, push et pull",
     "tags": [],
-    "title": "Sous-programmes et structures conditionnelles",
-    "uri": "/zc6/fonctions-if/index.html"
+    "title": "Soutien pour le 3C3 (à confirmer)",
+    "uri": "/zf5/index.html"
+  },
+  {
+    "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le ZC6",
+    "content": "Quand et où ? Mardi 2 décembre de 12:00 à 14:00 Local : B-3317",
+    "description": "Quand et où ? Mardi 2 décembre de 12:00 à 14:00 Local : B-3317",
+    "tags": [],
+    "title": "Tableaux (à confirmer)",
+    "uri": "/zc6/tableaux/index.html"
   },
   {
     "breadcrumb": "Soutien en programmation",

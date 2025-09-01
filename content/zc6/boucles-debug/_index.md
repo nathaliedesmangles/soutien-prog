@@ -3,8 +3,12 @@ title = "Boucles et débogueur"
 weight = 3
 +++
 
+## Quand et où ?
 
-### Boucles[^1]
+* Jeudi 13 novembre de 12:00 à 14:00 (horaire du mardi)
+* **Local** : B-3317
+
+### Boucles[^1] (à venir)
 
 #### Boucle for
 

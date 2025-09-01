@@ -1,8 +1,12 @@
 +++
 title = "Sous-programmes et structures conditionnelles"
-weight = 4
+weight = 2
 +++
 
+## Quand et où ?
+
+* Mardi 7 ou 14 octobre de 12:00 à 14:00 (**à confirmer)
+* **Local** : B-3317
 
 ### Sous-programmes (procédures et fonctions)[^1]
 
