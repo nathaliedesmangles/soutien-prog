@@ -16,11 +16,14 @@ weight = 1
 	* [Modèle de tableau de trace d’exécution](./modele_trace_execution.pdf)  
 * [Erreurs fréquentes](./Fiche_ErreursFrequentes.pdf)
 
-## Atelier intéractif
 
-### Fichier .pdf à télécharger
+## Ateliers intéractifs
 
-[À Venir](./)
+### Fichiers .pdf à télécharger
+
+[Atelier Traces d'exécution](./atelier_trace.pdf)
+
+[Atelier Erreurs fréquentes](./atelier_erreurs.pdf)
 
 
 

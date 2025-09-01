@@ -25,8 +25,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le ZC6",
-    "content": "Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers .pdf à télécharger Trace d’exécution Modèle de tableau de trace d’exécution Erreurs fréquentes Atelier intéractif Fichier .pdf à télécharger À Venir",
-    "description": "Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers .pdf à télécharger Trace d’exécution Modèle de tableau de trace d’exécution Erreurs fréquentes Atelier intéractif Fichier .pdf à télécharger À Venir",
+    "content": "Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers .pdf à télécharger Trace d’exécution Modèle de tableau de trace d’exécution Erreurs fréquentes Ateliers intéractifs Fichiers .pdf à télécharger Atelier Traces d’exécution\nAtelier Erreurs fréquentes",
+    "description": "Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers .pdf à télécharger Trace d’exécution Modèle de tableau de trace d’exécution Erreurs fréquentes Ateliers intéractifs Fichiers .pdf à télécharger Atelier Traces d’exécution\nAtelier Erreurs fréquentes",
     "tags": [],
     "title": "Trace d'exécution et messages d'erreurs",
     "uri": "/zc6/trace/index.html"
