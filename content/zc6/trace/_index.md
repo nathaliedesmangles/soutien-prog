@@ -26,6 +26,8 @@ weight = 1
 
 ### Fichiers télécharger
 
+<!--
+
 * [Modèle de tableau de trace d’exécution](./modele_trace_execution.pdf) 
 
 * [Atelier Traces d'exécution](./atelier_trace.pdf)
@@ -34,3 +36,4 @@ weight = 1
 
 
 * [Atelier Erreurs fréquentes](./atelier_erreurs.pdf)
+-->

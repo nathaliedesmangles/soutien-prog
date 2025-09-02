@@ -8,32 +8,33 @@ Modifs faites
 - Trace: Erreur c'est # lignes
 - c'est à eux de faire 1 colonne pour les # lignes
 - public class trace: est-ce possible d'exécuter sans main?
+- Enlever confondre déclaration et initialisation
+- Méthodes avant conditions
+- Enlever le system.out.println dans astuces
+- Ajouter : oublier le type des variables
 
+
+Erreur
+- Trop de Code dans main s'applique pas
+- .class sur l'autre ligne
 
 Commentaires trace
 
 - 420-ZC6-Base (csv)
-
 - Trace: Total mettre valeur au lieu de la variable
-- Enlever confondre déclaration et initialisation
-- Ajouter : oublier le type des variables
-- Méthodes avant conditions
-- Enlever le system.out.println dans astuces
 
 ====
 
-- Trop de Code dans main s'applique pas
 - Ajouter Maj+ Alt+ Shift pour l'indentation automatique
 - nextline() ? Si nextInt() avant nextLine() retourne rien (caractères retour à la ligne)
-- Capture d'écran des erreur (boite de dialogue avec souligné, le message d'erreur
-- .class sur l'autre ligne
+- Capture d'écran des erreur (boite de dialogue avec souligné, le message d'erreur)
 - Erreurs de normes (souligné en bleu et message d'erreur clic sur ligne bleu) --- Voir sandbox
 - Erreurs de logique faire référence à la trace et au débogueur 
 - Erreur d'exécution: mettre exemple du résultat dans le Terminal ( # ligne où est le problème)
 - Ajouter exemple string.Format (mettre  exemple typique %d vs string)
-- Ajouter dans Erreurs fréque: portée
+- Ajouter dans Erreurs fréquentes: portée
 - Methode: nommer variables diff des paramètres
-- Erreur freq: oublier d'initialiser la variable
+- Erreur frequentes: oublier d'initialiser la variable
 - String texte; au lieu de = null;
 - Atelier: fournir code en .java
 - Ajout: erreur de syntaxe, norme, logique
