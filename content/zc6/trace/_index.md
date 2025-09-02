@@ -12,20 +12,25 @@ weight = 1
 
 ### Fichiers à télécharger
 
+**En construction**
+
+<!--
+
 * [Trace d'exécution](./Fiche_TracesExecution.pdf)   
-	* [Fichier .csv pour l'exemple A](./trace_exemple_A.csv)
-	* [Fichier .csv pour l'exemple B](./trace_exemple_B.csv)
-* [Modèle de tableau de trace d’exécution](./modele_trace_execution.pdf) 
+
 * [Erreurs fréquentes](./Fiche_ErreursFrequentes.pdf)
 
+-->
 
 ## Ateliers intéractifs
 
 ### Fichiers télécharger
 
-[Atelier Traces d'exécution](./atelier_trace.pdf)
+* [Modèle de tableau de trace d’exécution](./modele_trace_execution.pdf) 
 
-[Atelier Erreurs fréquentes](./atelier_erreurs.pdf)
+* [Atelier Traces d'exécution](./atelier_trace.pdf)
+	* [Fichier .csv pour l'exemple A](./trace_exemple_A.csv)
+	* [Fichier .csv pour l'exemple B](./trace_exemple_B.csv)
 
 
-
+* [Atelier Erreurs fréquentes](./atelier_erreurs.pdf)
