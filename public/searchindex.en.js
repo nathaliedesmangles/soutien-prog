@@ -25,8 +25,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le ZC6",
-    "content": "Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers .pdf à télécharger Trace d’exécution Modèle de tableau de trace d’exécution Erreurs fréquentes Ateliers intéractifs Fichiers .pdf à télécharger Atelier Traces d’exécution\nAtelier Erreurs fréquentes",
-    "description": "Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers .pdf à télécharger Trace d’exécution Modèle de tableau de trace d’exécution Erreurs fréquentes Ateliers intéractifs Fichiers .pdf à télécharger Atelier Traces d’exécution\nAtelier Erreurs fréquentes",
+    "content": "Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers à télécharger Trace d’exécution Fichier .csv pour l’exemple A Fichier .csv pour l’exemple B Modèle de tableau de trace d’exécution Erreurs fréquentes Ateliers intéractifs Fichiers télécharger Atelier Traces d’exécution\nAtelier Erreurs fréquentes",
+    "description": "Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers à télécharger Trace d’exécution Fichier .csv pour l’exemple A Fichier .csv pour l’exemple B Modèle de tableau de trace d’exécution Erreurs fréquentes Ateliers intéractifs Fichiers télécharger Atelier Traces d’exécution\nAtelier Erreurs fréquentes",
     "tags": [],
     "title": "Trace d'exécution et messages d'erreurs",
     "uri": "/zc6/trace/index.html"
@@ -69,7 +69,7 @@ var relearn_searchindex = [
     "description": "Sujets ciblés Git et GitHub\nSemaine #?: Mardi ? de 12:00 à 13:30\nDépots local et distant Clone, push et pull",
     "tags": [],
     "title": "Soutien pour le 3C3 (à confirmer)",
-    "uri": "/zf5/index.html"
+    "uri": "/zf5-h26/index.html"
   },
   {
     "breadcrumb": "Soutien en programmation \u003e \rSoutien pour le ZC6",

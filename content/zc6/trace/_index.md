@@ -10,16 +10,18 @@ weight = 1
 
 ## Fiches aide-mémoire
 
-### Fichiers .pdf à télécharger
+### Fichiers à télécharger
 
-* [Trace d'exécution](./Fiche_TracesExecution.pdf)  
-	* [Modèle de tableau de trace d’exécution](./modele_trace_execution.pdf)  
+* [Trace d'exécution](./Fiche_TracesExecution.pdf)   
+	* [Fichier .csv pour l'exemple A](./trace_exemple_A.csv)
+	* [Fichier .csv pour l'exemple B](./trace_exemple_B.csv)
+* [Modèle de tableau de trace d’exécution](./modele_trace_execution.pdf) 
 * [Erreurs fréquentes](./Fiche_ErreursFrequentes.pdf)
 
 
 ## Ateliers intéractifs
 
-### Fichiers .pdf à télécharger
+### Fichiers télécharger
 
 [Atelier Traces d'exécution](./atelier_trace.pdf)
 

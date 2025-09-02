@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soutien pour le 3C3 (à confirmer) :: Soutien en programmation</title>
+    <link>https://example.org/zf5-h26/index.html</link>
+    <description>Sujets ciblés Git et GitHub&#xA;Semaine #?: Mardi ? de 12:00 à 13:30&#xA;Dépots local et distant Clone, push et pull</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/zf5-h26/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
