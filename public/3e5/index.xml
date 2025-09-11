@@ -3,7 +3,7 @@
   <channel>
     <title>Soutien pour le 3E5 :: Soutien en programmation</title>
     <link>https://example.org/3e5/index.html</link>
-    <description>Sujets ciblés HTML &amp; CSS&#xA;Semaine #5: Mardi 23 septembre (sujets et date à confirmer)&#xA;JavaScript&#xA;Semaine #13: Mardi 25 octobre (sujets et date à confirmer)</description>
+    <description>Sujets ciblés Chemins relatif vs absolu&#xA;Semaine #6: Mardi 30 septembre&#xA;JavaScript&#xA;Semaine #13: Mardi 25 octobre (sujets et date à confirmer)</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/3e5/index.xml" rel="self" type="application/rss+xml" />

@@ -5,8 +5,8 @@ weight = 2
 
 ## Sujets ciblés
 
-[HTML & CSS](./html-css)
-> **Semaine #5**: Mardi 23 septembre (**sujets et date à confirmer**)
+[Chemins relatif vs absolu](./html-css)
+> **Semaine #6**: Mardi 30 septembre
 
 
 [JavaScript](./js)

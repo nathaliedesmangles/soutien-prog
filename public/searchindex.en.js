@@ -49,8 +49,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Soutien en programmation",
-    "content": "Sujets ciblés HTML \u0026 CSS\nSemaine #5: Mardi 23 septembre (sujets et date à confirmer)\nJavaScript\nSemaine #13: Mardi 25 octobre (sujets et date à confirmer)",
-    "description": "Sujets ciblés HTML \u0026 CSS\nSemaine #5: Mardi 23 septembre (sujets et date à confirmer)\nJavaScript\nSemaine #13: Mardi 25 octobre (sujets et date à confirmer)",
+    "content": "Sujets ciblés Chemins relatif vs absolu\nSemaine #6: Mardi 30 septembre\nJavaScript\nSemaine #13: Mardi 25 octobre (sujets et date à confirmer)",
+    "description": "Sujets ciblés Chemins relatif vs absolu\nSemaine #6: Mardi 30 septembre\nJavaScript\nSemaine #13: Mardi 25 octobre (sujets et date à confirmer)",
     "tags": [],
     "title": "Soutien pour le 3E5",
     "uri": "/3e5/index.html"
