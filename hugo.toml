@@ -6,5 +6,5 @@ repository_url = ""
 
 [params]
   show_metadata = false 
-  logo = "images/soutien-prog.jpeg"
+  logo = "/images/logo.png"
   custom_css = ["css/custom.css"]

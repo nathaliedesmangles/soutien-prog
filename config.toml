@@ -6,4 +6,4 @@ home = [ "HTML", "RSS", "SEARCH"]
 
 [params]
   # Chemin relatif à /static
-  logo = "images/soutien-reussite.jpeg"
+  logo = "/images/logo.png"
