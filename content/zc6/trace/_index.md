@@ -27,6 +27,11 @@ weight = 1
 * Utiliser la trace comme outil de débogage.
 * Corriger des erreurs simples (mauvaises affectations, erreurs de calcul).
 
+
+### Matériel fourni
+
+* Modèle vierge de tableau de trace (.csv).
+
 ---
 
 ### Algorithme 1: calcul du périmètre d’un rectangle
@@ -47,9 +52,11 @@ FIN
 
 **Consignes :**
 
-* Compléter la trace.
-* Valeurs d’entrée : longueur = 8, largeur = 3.
-* Vérifier que le résultat affiché est bien *22*.
+1. Compléter la trace.
+2. Valeurs d’entrée : longueur = 8, largeur = 3.
+3. Vérifier que le résultat affiché est bien *22*.
+
+* **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
 
 **Discussion** : que se passe-t-il si on oublie les parenthèses à la ligne 5 ?
 
@@ -77,6 +84,8 @@ FIN
 3. En binôme, identifiez l’erreur et proposez la correction.
 4. Refaire la trace avec l’algorithme corrigé.
 
+* **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
+
 ---
 
 ### Algorithme 3: calcul du coût total d’un achat
@@ -97,9 +106,11 @@ FIN
 
 **Consignes :**
 
-* Faire la trace individuellement pour prix = 12 et quantite = 3.
-* Vérifier le résultat attendu (*36*).
-* Puis refaire la trace avec prix = 7,50 et quantite = 5.
+1. Faire la trace individuellement pour prix = 12 et quantite = 3.
+2. Vérifier le résultat attendu (*36*).
+3. Puis refaire la trace avec prix = 7,50 et quantite = 5.
+
+* **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
 
 ---
 

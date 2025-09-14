@@ -4,7 +4,10 @@ title = 'Soutien en programmation'
 theme = "relearn"
 repository_url = ""
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   show_metadata = false 
-  logo = "/images/logo.png"
+  logo = "images/logo.png"
   custom_css = ["css/custom.css"]

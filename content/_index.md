@@ -20,7 +20,7 @@ Offrir un accompagnement régulier, personnalisé et ciblé aux étudiant·es ay
 * **Quand** : Mardi de 12:00 à 14:00 (environ aux 3 semaines)
 > Les dates sont inscrites pour chacun des sujets ciblés (voir ***Plus de détails***)
 
-* **Local** : B-3317
+* **Local** : B-3317 (8 à 15 étudiant.e.s)
 
 ## Soutien en Java (ZC6)
 

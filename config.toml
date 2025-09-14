@@ -6,4 +6,12 @@ home = [ "HTML", "RSS", "SEARCH"]
 
 [params]
   # Chemin relatif à /static
-  logo = "/images/logo.png"
+  logo = "images/logo.png"
+
+# Hide the Home entry.
+  # Default: false
+  # If shown, a Home button will appear below the search bar and the main menu.
+  # It links to your the home page of the current language.
+
+  # Masquer le titre du site dans le panneau latéral
+  disableTitleInSidebar = true
