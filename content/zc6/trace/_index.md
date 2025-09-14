@@ -12,9 +12,10 @@ weight = 1
 
 * La trace est un outil de vérification universel, pas seulement pour l’examen ou pour java, mais aussi pour déboguer n'importe quel programme écrit avec n'importe quel langage.
 * Faire la trace d'un programme consiste à utiliser la liste de vérification, un tableau dans lequel on :
-   * numérote les lignes correspondantes aux lignes du code. 
+   * numérote les lignes correspondantes aux lignes du code entre **DÉBUT** et **FIN** de l'algorithme. 
    * inscrit **seulement les changements** dans les valeurs des variables après l’exécution de chaque ligne numérotée.
    * inclus la colonne Terminal/console pour indiquer les affichages dans le Terminal.
+
 * **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
 
 ---
@@ -23,15 +24,10 @@ weight = 1
 
 ### Objectifs pédagogiques
 
-* Savoir construire un tableau de trace pas-à-pas.
+* Savoir construire un tableau de trace pas-à-pas (tableau csv).
 * Identifier les valeurs des variables à chaque étape.
 * Utiliser la trace comme outil de débogage.
 * Corriger des erreurs simples (mauvaises affectations, erreurs de calcul).
-
-
-### Matériel fourni
-
-* Modèle vierge de tableau de trace (.csv).
 
 ---
 
@@ -40,7 +36,7 @@ weight = 1
 ```text
 ALGORITHME PerimetreRectangle
 VARIABLES
-longueur, largeur, perimetre TYPE NUMÉRIQUE
+   longueur, largeur, perimetre TYPE NUMÉRIQUE
 DÉBUT
 1 AFFICHER("Entrez la longueur")
 2 LIRE(longueur)
