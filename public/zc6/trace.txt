@@ -2,21 +2,22 @@ Modifs faites
 
 - écrire valeur seulement lorsque ça change
 - Changer mot Console pour Terminal
-
+- mettre 2 code Java et 1 pseudo
 - enlever boucle remplacer par code java (voir notes de cours)
 - Trace: Erreur c'est # lignes
 - c'est à eux de faire 1 colonne pour les # lignes
-
+- public class trace: est-ce possible d'exécuter sans main?
 - Enlever confondre déclaration et initialisation
 - Méthodes avant conditions
 - Enlever le system.out.println dans astuces
 - Ajouter : oublier le type des variables
+- # ligne pas nécessairement à 1 (comprendre que ligne vide comptent)
 
 À FAIRE
 
-- mettre 2 code Java et 1 pseudo
-- public class trace: est-ce possible d'exécuter sans main?
-- # ligne pas nécessairement à 1 (comprendre que ligne vide comptent)
+- indiquer d'ouvrir ou de creer un .csv dans vs code
+- Faire solutions, fournir en pdf
+
 
 
 Erreur

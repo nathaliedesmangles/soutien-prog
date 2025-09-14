@@ -22,9 +22,7 @@ weight = 1
 
 ## Mise en commun
 
-* Questions :
-
-  * Quelles erreurs vous semblent les plus fréquentes (ordre des opérations, mauvaise formule, mauvaise lecture) ?
+  * Quelles erreurs vous semblent les plus fréquentes ?
   * Comment la trace permet-elle de les repérer rapidement ?
 
 ---
