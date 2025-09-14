@@ -3,7 +3,7 @@
   <channel>
     <title>Chemins relatif vs absolu :: Soutien en programmation</title>
     <link>https://example.org/3e5/html-css/index.html</link>
-    <description>Quand et où ? Mardi 30 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fiche 1 – Chemins absolus vs relatifs (HTML, CSS, JS) Chemin absolu Contient l’adresse complète (depuis la racine du site ou une URL externe).&#xA;Utilisé pour pointer vers un fichier n’importe où sur le web.&#xA;Exemples :&#xA;&lt;!-- Image --&gt; &lt;img src=&#34;https://exemple.com/images/logo.png&#34;&gt; &lt;!-- Lien CSS --&gt; &lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/styles/global.css&#34;&gt;&#xD;Avantage : toujours le même, peu importe la page.</description>
+    <description>Quand et où ? Mardi 30 septembre de 12:00 à 14:00 Local : B-3317 Rappels Chemin absolu Contient l’adresse complète (depuis la racine du site ou une URL externe). Utilisé pour pointer vers un fichier n’importe où sur le web. Exemples : &lt;!-- Image --&gt; &lt;img src=&#34;https://exemple.com/images/logo.png&#34;&gt;&#xD;Avantage : toujours le même, peu importe la page. Inconvénient : moins flexible si tu déplaces ton projet. Chemin relatif Dépend de l’endroit où se trouve le fichier actuel (fichier où l’url est écrite).</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/3e5/html-css/index.xml" rel="self" type="application/rss+xml" />

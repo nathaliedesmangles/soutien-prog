@@ -3,7 +3,7 @@
   <channel>
     <title>Trace d&#39;exécution et messages d&#39;erreurs :: Soutien en programmation</title>
     <link>https://example.org/zc6/trace/index.html</link>
-    <description>Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fichiers à télécharger En construction&#xA;Ateliers intéractifs Fichiers télécharger</description>
+    <description>Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Rappels La trace est un outil de vérification universel, pas seulement pour l’examen ou pour java, mais aussi pour déboguer n’importe quel programme écrit avec n’importe quel langage. Faire la trace d’un programme consiste à utiliser la liste de vérification, un tableau dans lequel on : numérote les lignes correspondantes aux lignes du code. inscrit seulement les changements dans les valeurs des variables après l’exécution de chaque ligne numérotée.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/zc6/trace/index.xml" rel="self" type="application/rss+xml" />

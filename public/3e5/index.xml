@@ -3,7 +3,7 @@
   <channel>
     <title>Soutien pour le 3E5 :: Soutien en programmation</title>
     <link>https://example.org/3e5/index.html</link>
-    <description>Sujets ciblés Chemins relatif vs absolu&#xA;Semaine #6: Mardi 30 septembre&#xA;JavaScript&#xA;Semaine #13: Mardi 25 octobre (sujets et date à confirmer)</description>
+    <description>Sujets ciblés Semaine #6: Mardi 30 septembre&#xA;Chemins relatif vs absolu&#xA;Semaine #13: Mardi 25 octobre (sujets et date à confirmer)&#xA;JavaScript</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/3e5/index.xml" rel="self" type="application/rss+xml" />
@@ -12,14 +12,7 @@
       <link>https://example.org/3e5/html-css/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/3e5/html-css/index.html</guid>
-      <description>Quand et où ? Mardi 30 septembre de 12:00 à 14:00 Local : B-3317 Fiches aide-mémoire Fiche 1 – Chemins absolus vs relatifs (HTML, CSS, JS) Chemin absolu Contient l’adresse complète (depuis la racine du site ou une URL externe).&#xA;Utilisé pour pointer vers un fichier n’importe où sur le web.&#xA;Exemples :&#xA;&lt;!-- Image --&gt; &lt;img src=&#34;https://exemple.com/images/logo.png&#34;&gt; &lt;!-- Lien CSS --&gt; &lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/styles/global.css&#34;&gt;&#xD;Avantage : toujours le même, peu importe la page.</description>
-    </item>
-    <item>
-      <title>JavaScript</title>
-      <link>https://example.org/3e5/js/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/3e5/js/index.html</guid>
-      <description>Sujets À Déterminer&#xA;Quand et où ? Mardi 25 octobre de 12:00 à 14:00 Local : B-3317</description>
+      <description>Quand et où ? Mardi 30 septembre de 12:00 à 14:00 Local : B-3317 Rappels Chemin absolu Contient l’adresse complète (depuis la racine du site ou une URL externe). Utilisé pour pointer vers un fichier n’importe où sur le web. Exemples : &lt;!-- Image --&gt; &lt;img src=&#34;https://exemple.com/images/logo.png&#34;&gt;&#xD;Avantage : toujours le même, peu importe la page. Inconvénient : moins flexible si tu déplaces ton projet. Chemin relatif Dépend de l’endroit où se trouve le fichier actuel (fichier où l’url est écrite).</description>
     </item>
   </channel>
 </rss>

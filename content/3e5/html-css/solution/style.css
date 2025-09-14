@@ -1,0 +1,6 @@
+/* Exemple avec une image relative (chemin depuis index.html) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #eef;
+}

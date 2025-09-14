@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript :: Soutien en programmation</title>
-    <link>https://example.org/3e5/js/index.html</link>
+    <link>http://localhost:1313/3e5/js/index.html</link>
     <description>Sujets À Déterminer&#xA;Quand et où ? Mardi 25 octobre de 12:00 à 14:00 Local : B-3317</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/3e5/js/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/3e5/js/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

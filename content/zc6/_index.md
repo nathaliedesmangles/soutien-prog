@@ -6,17 +6,16 @@ weight = 1
 
 ## Sujets ciblés
 
+> **Semaine #4**: Mardi 16 septembre  
 [Trace d'exécution et messages d'erreurs](./trace)
-> **Semaine #4**: Mardi 16 septembre
 
 
+> **Semaine #7**: Mardi 14 octobre (**à confirmer**)  
 [Sous-programme et structures conditionnelles](./fonctions-if)
-> **Semaine #7**: Mardi 14 octobre (**à confirmer**)
 
 
+> **Semaine #11**: Mardi 13 novembre (**à confirmer**)  
 [Boucles et débogueur](./boucles-debug)
-> **Semaine #11**: Mardi 13 novembre (**à confirmer**)
-
 
 
 <!--

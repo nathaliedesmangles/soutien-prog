@@ -1,0 +1,7 @@
+/* Attention : chemin relatif depuis css/theme.css */
+body {
+  background-image: url("../images/chat.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 150px;
+}
