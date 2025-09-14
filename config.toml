@@ -7,6 +7,7 @@ home = [ "HTML", "RSS", "SEARCH"]
 [params]
   # Chemin relatif à /static
   logo = "images/logo.png"
+  site_logo_hide_title = true
 
 # Hide the Home entry.
   # Default: false

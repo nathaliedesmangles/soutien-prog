@@ -20,6 +20,15 @@ weight = 1
 
 ---
 
+## Mise en commun
+
+* Questions :
+
+  * Quelles erreurs vous semblent les plus fréquentes (ordre des opérations, mauvaise formule, mauvaise lecture) ?
+  * Comment la trace permet-elle de les repérer rapidement ?
+
+---
+
 ## Atelier interactif
 
 ### Objectifs pédagogiques
@@ -123,16 +132,6 @@ FIN
 1. Faire la trace individuellement pour prix = 12 et quantite = 3.
 2. Vérifier le résultat attendu (*36*).
 3. Puis refaire la trace avec prix = 7,50 et quantite = 5.
-
----
-
-### Mise en commun (5 min)
-
-* Questions aux étudiants :
-
-  * Quelles erreurs vous semblent les plus fréquentes (ordre des opérations, mauvaise formule, mauvaise lecture) ?
-  * Comment la trace permet-elle de les repérer rapidement ?
-
 
 <!--
 
