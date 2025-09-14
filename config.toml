@@ -4,3 +4,6 @@ theme = "relearn"
 [outputs]
 home = [ "HTML", "RSS", "SEARCH"]
 
+[params]
+  # Chemin relatif à /static
+  logo = "images/soutien-reussite.jpeg"

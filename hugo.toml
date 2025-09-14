@@ -3,3 +3,8 @@ languageCode = 'en-us'
 title = 'Soutien en programmation'
 theme = "relearn"
 repository_url = ""
+
+[params]
+  show_metadata = false 
+  logo = "images/soutien-prog.jpeg"
+  custom_css = ["css/custom.css"]
