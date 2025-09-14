@@ -15,6 +15,7 @@ weight = 1
    * numérote les lignes correspondantes aux lignes du code. 
    * inscrit **seulement les changements** dans les valeurs des variables après l’exécution de chaque ligne numérotée.
    * inclus la colonne Terminal/console pour indiquer les affichages dans le Terminal.
+* **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
 
 ---
 
@@ -56,26 +57,34 @@ FIN
 2. Valeurs d’entrée : longueur = 8, largeur = 3.
 3. Vérifier que le résultat affiché est bien *22*.
 
-* **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
-
 **Discussion** : que se passe-t-il si on oublie les parenthèses à la ligne 5 ?
 
 ---
 
 ### Algorithme 2: calcul de la surface d’un rectangle (petite erreur à corriger)
 
-```text
-ALGORITHME SurfaceRectangle
-VARIABLES
-longueur, largeur, surface TYPE NUMÉRIQUE
-DÉBUT
-1 AFFICHER("Entrez la longueur")
-2 LIRE(longueur)
-3 AFFICHER("Entrez la largeur")
-4 LIRE(largeur)
-5 surface ← longueur + largeur   // erreur : devrait être multiplication
-6 AFFICHER("La surface est ", surface)
-FIN
+```java
+1 import java.util.Scanner;
+2
+3 public class SurfaceRectangle {
+4    public static void main(String[] args) {
+5        Scanner sc = new Scanner(System.in);
+6
+7        int longueur, largeur, surface;8
+9
+10        System.out.println("Entrez la longueur");
+11        longueur = sc.nextInt();
+12
+13        System.out.println("Entrez la largeur");
+14        largeur = sc.nextInt();
+15
+16        surface = longueur + largeur;
+17
+18        System.out.println("La surface est " + surface);
+19
+20        sc.close();
+21    }
+22}
 ```
 
 **Tâches :**
@@ -84,24 +93,33 @@ FIN
 3. En binôme, identifiez l’erreur et proposez la correction.
 4. Refaire la trace avec l’algorithme corrigé.
 
-* **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
-
 ---
 
 ### Algorithme 3: calcul du coût total d’un achat
 
-```text
-ALGORITHME AchatSimple
-VARIABLES
-prix, quantite, total TYPE NUMÉRIQUE
-DÉBUT
-1 AFFICHER("Entrez le prix du produit")
-2 LIRE(prix)
-3 AFFICHER("Entrez la quantité")
-4 LIRE(quantite)
-5 total ← prix * quantite
-6 AFFICHER("Le coût total est ", total)
-FIN
+```java
+1 import java.util.Scanner;
+2
+3 public class AchatSimple {
+4    public static void main(String[] args) {
+5        Scanner sc = new Scanner(System.in);
+6
+7        double prix, total;
+8        int quantite;
+9
+10        System.out.println("Entrez le prix du produit");
+11        prix = sc.nextDouble();
+12
+13        System.out.println("Entrez la quantité");
+14        quantite = sc.nextInt();
+15
+16        total = prix * quantite;
+17
+18        System.out.println("Le coût total est " + total);
+19
+20        sc.close();
+21    }
+22}
 ```
 
 **Consignes :**
@@ -109,8 +127,6 @@ FIN
 1. Faire la trace individuellement pour prix = 12 et quantite = 3.
 2. Vérifier le résultat attendu (*36*).
 3. Puis refaire la trace avec prix = 7,50 et quantite = 5.
-
-* **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
 
 ---
 

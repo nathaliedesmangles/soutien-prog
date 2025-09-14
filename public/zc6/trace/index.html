@@ -18,21 +18,21 @@
     <meta property="og:type" content="website">
     <meta itemprop="name" content="Trace d&#39;exécution et messages d&#39;erreurs :: Soutien en programmation">
     <meta itemprop="description" content="Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Rappels La trace est un outil de vérification universel, pas seulement pour l’examen ou pour java, mais aussi pour déboguer n’importe quel programme écrit avec n’importe quel langage. Faire la trace d’un programme consiste à utiliser la liste de vérification, un tableau dans lequel on : numérote les lignes correspondantes aux lignes du code. inscrit seulement les changements dans les valeurs des variables après l’exécution de chaque ligne numérotée.">
-    <meta itemprop="wordCount" content="447">
+    <meta itemprop="wordCount" content="489">
     <title>Trace d&#39;exécution et messages d&#39;erreurs :: Soutien en programmation</title>
     <link href="/zc6/trace/index.xml" rel="alternate" type="application/rss+xml" title="Trace d&#39;exécution et messages d&#39;erreurs :: Soutien en programmation">
-    <link href="/images/logo.png?1757867103" rel="icon" type="image/png">
-    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757867103" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757867103" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757867103" rel="stylesheet">
-    <link href="/css/theme.min.css?1757867103" rel="stylesheet">
-    <link href="/css/format-html.min.css?1757867103" rel="stylesheet" id="R-format-style">
-    <link href="/css/auto-complete/auto-complete.min.css?1757867103" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1757867103" defer></script>
-    <script src="/js/lunr/lunr.min.js?1757867103" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1757867103" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1757867103" defer></script>
-    <script src="/js/lunr/lunr.en.min.js?1757867103" defer></script>
-    <script src="/js/search.min.js?1757867103" defer></script>
+    <link href="/images/logo.png?1757867826" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757867826" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757867826" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757867826" rel="stylesheet">
+    <link href="/css/theme.min.css?1757867826" rel="stylesheet">
+    <link href="/css/format-html.min.css?1757867826" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1757867826" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1757867826" defer></script>
+    <script src="/js/lunr/lunr.min.js?1757867826" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1757867826" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1757867826" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1757867826" defer></script>
+    <script src="/js/search.min.js?1757867826" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -42,7 +42,7 @@
       window.relearn.relBaseUri='..\/..';
       window.relearn.absBaseUri='https:\/\/example.org';
       window.relearn.contentLangs=['en'];
-      window.relearn.index_js_url="/searchindex.en.js?1757867103";
+      window.relearn.index_js_url="/searchindex.en.js?1757867826";
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -166,6 +166,7 @@
 <li>inclus la colonne Terminal/console pour indiquer les affichages dans le Terminal.</li>
 </ul>
 </li>
+<li><strong>Pense-bête</strong> : &ldquo;Toujours inscrire les changements, toujours vérifier le Terminal/console&rdquo;.</li>
 </ul>
 <hr>
 <h2 id="atelier-interactif">Atelier interactif</h2>
@@ -199,23 +200,30 @@
 <li>Valeurs d’entrée : longueur = 8, largeur = 3.</li>
 <li>Vérifier que le résultat affiché est bien <em>22</em>.</li>
 </ol>
-<ul>
-<li><strong>Pense-bête</strong> : &ldquo;Toujours inscrire les changements, toujours vérifier le Terminal/console&rdquo;.</li>
-</ul>
 <p><strong>Discussion</strong> : que se passe-t-il si on oublie les parenthèses à la ligne 5 ?</p>
 <hr>
 <h3 id="algorithme-2-calcul-de-la-surface-dun-rectangle-petite-erreur-à-corriger">Algorithme 2: calcul de la surface d’un rectangle (petite erreur à corriger)</h3>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>ALGORITHME SurfaceRectangle
-</span></span><span style="display:flex;"><span>VARIABLES
-</span></span><span style="display:flex;"><span>longueur, largeur, surface TYPE NUMÉRIQUE
-</span></span><span style="display:flex;"><span>DÉBUT
-</span></span><span style="display:flex;"><span>1 AFFICHER(&#34;Entrez la longueur&#34;)
-</span></span><span style="display:flex;"><span>2 LIRE(longueur)
-</span></span><span style="display:flex;"><span>3 AFFICHER(&#34;Entrez la largeur&#34;)
-</span></span><span style="display:flex;"><span>4 LIRE(largeur)
-</span></span><span style="display:flex;"><span>5 surface ← longueur + largeur   // erreur : devrait être multiplication
-</span></span><span style="display:flex;"><span>6 AFFICHER(&#34;La surface est &#34;, surface)
-</span></span><span style="display:flex;"><span>FIN</span></span></code></pre></div>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>1 <span style="color:#f92672">import</span> java.util.Scanner;
+</span></span><span style="display:flex;"><span>2
+</span></span><span style="display:flex;"><span>3 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SurfaceRectangle</span> {
+</span></span><span style="display:flex;"><span>4    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>5        Scanner sc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
+</span></span><span style="display:flex;"><span>6
+</span></span><span style="display:flex;"><span>7        <span style="color:#66d9ef">int</span> longueur, largeur, surface;8
+</span></span><span style="display:flex;"><span>9
+</span></span><span style="display:flex;"><span>10        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Entrez la longueur&#34;</span>);
+</span></span><span style="display:flex;"><span>11        longueur <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextInt</span>();
+</span></span><span style="display:flex;"><span>12
+</span></span><span style="display:flex;"><span>13        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Entrez la largeur&#34;</span>);
+</span></span><span style="display:flex;"><span>14        largeur <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextInt</span>();
+</span></span><span style="display:flex;"><span>15
+</span></span><span style="display:flex;"><span>16        surface <span style="color:#f92672">=</span> longueur <span style="color:#f92672">+</span> largeur;
+</span></span><span style="display:flex;"><span>17
+</span></span><span style="display:flex;"><span>18        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;La surface est &#34;</span> <span style="color:#f92672">+</span> surface);
+</span></span><span style="display:flex;"><span>19
+</span></span><span style="display:flex;"><span>20        sc.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>21    }
+</span></span><span style="display:flex;"><span>22}</span></span></code></pre></div>
 <p><strong>Tâches :</strong></p>
 <ol>
 <li>Construisez la trace pour longueur = 5, largeur = 4.</li>
@@ -223,31 +231,36 @@
 <li>En binôme, identifiez l’erreur et proposez la correction.</li>
 <li>Refaire la trace avec l’algorithme corrigé.</li>
 </ol>
-<ul>
-<li><strong>Pense-bête</strong> : &ldquo;Toujours inscrire les changements, toujours vérifier le Terminal/console&rdquo;.</li>
-</ul>
 <hr>
 <h3 id="algorithme-3-calcul-du-coût-total-dun-achat">Algorithme 3: calcul du coût total d’un achat</h3>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>ALGORITHME AchatSimple
-</span></span><span style="display:flex;"><span>VARIABLES
-</span></span><span style="display:flex;"><span>prix, quantite, total TYPE NUMÉRIQUE
-</span></span><span style="display:flex;"><span>DÉBUT
-</span></span><span style="display:flex;"><span>1 AFFICHER(&#34;Entrez le prix du produit&#34;)
-</span></span><span style="display:flex;"><span>2 LIRE(prix)
-</span></span><span style="display:flex;"><span>3 AFFICHER(&#34;Entrez la quantité&#34;)
-</span></span><span style="display:flex;"><span>4 LIRE(quantite)
-</span></span><span style="display:flex;"><span>5 total ← prix * quantite
-</span></span><span style="display:flex;"><span>6 AFFICHER(&#34;Le coût total est &#34;, total)
-</span></span><span style="display:flex;"><span>FIN</span></span></code></pre></div>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>1 <span style="color:#f92672">import</span> java.util.Scanner;
+</span></span><span style="display:flex;"><span>2
+</span></span><span style="display:flex;"><span>3 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AchatSimple</span> {
+</span></span><span style="display:flex;"><span>4    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>5        Scanner sc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
+</span></span><span style="display:flex;"><span>6
+</span></span><span style="display:flex;"><span>7        <span style="color:#66d9ef">double</span> prix, total;
+</span></span><span style="display:flex;"><span>8        <span style="color:#66d9ef">int</span> quantite;
+</span></span><span style="display:flex;"><span>9
+</span></span><span style="display:flex;"><span>10        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Entrez le prix du produit&#34;</span>);
+</span></span><span style="display:flex;"><span>11        prix <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextDouble</span>();
+</span></span><span style="display:flex;"><span>12
+</span></span><span style="display:flex;"><span>13        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Entrez la quantité&#34;</span>);
+</span></span><span style="display:flex;"><span>14        quantite <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextInt</span>();
+</span></span><span style="display:flex;"><span>15
+</span></span><span style="display:flex;"><span>16        total <span style="color:#f92672">=</span> prix <span style="color:#f92672">*</span> quantite;
+</span></span><span style="display:flex;"><span>17
+</span></span><span style="display:flex;"><span>18        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Le coût total est &#34;</span> <span style="color:#f92672">+</span> total);
+</span></span><span style="display:flex;"><span>19
+</span></span><span style="display:flex;"><span>20        sc.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>21    }
+</span></span><span style="display:flex;"><span>22}</span></span></code></pre></div>
 <p><strong>Consignes :</strong></p>
 <ol>
 <li>Faire la trace individuellement pour prix = 12 et quantite = 3.</li>
 <li>Vérifier le résultat attendu (<em>36</em>).</li>
 <li>Puis refaire la trace avec prix = 7,50 et quantite = 5.</li>
 </ol>
-<ul>
-<li><strong>Pense-bête</strong> : &ldquo;Toujours inscrire les changements, toujours vérifier le Terminal/console&rdquo;.</li>
-</ul>
 <hr>
 <h3 id="mise-en-commun-5-min">Mise en commun (5 min)</h3>
 <ul>
@@ -338,8 +351,8 @@
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/js/clipboard/clipboard.min.js?1757867103" defer></script>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757867103" defer></script>
-    <script src="/js/theme.min.js?1757867103" defer></script>
+    <script src="/js/clipboard/clipboard.min.js?1757867826" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757867826" defer></script>
+    <script src="/js/theme.min.js?1757867826" defer></script>
   </body>
 </html>
