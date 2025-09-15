@@ -58,7 +58,7 @@ FIN
 
 1. Compléter la trace.
 2. Valeurs d’entrée : longueur = 8, largeur = 3.
-3. Vérifier que le résultat affiché est bien *22*.
+3. Écrire e code java et vérifier que le résultat affiché est bien *22*.
 
 **Discussion** : que se passe-t-il si on oublie les parenthèses à la ligne 5 ?
 
@@ -74,20 +74,20 @@ FIN
 5        Scanner sc = new Scanner(System.in);
 6
 7        int longueur, largeur, surface;8
-9
-10        System.out.println("Entrez la longueur");
-11        longueur = sc.nextInt();
-12
-13        System.out.println("Entrez la largeur");
-14        largeur = sc.nextInt();
-15
-16        surface = longueur + largeur;
-17
-18        System.out.println("La surface est " + surface);
-19
-20        sc.close();
-21    }
-22}
+8
+9        System.out.println("Entrez la longueur");
+10       longueur = sc.nextInt();
+11
+12       System.out.println("Entrez la largeur");
+13       largeur = sc.nextInt();
+14
+15       surface = longueur + largeur;
+16
+17       System.out.println("La surface est " + surface);
+18
+19       sc.close();
+20    }
+21}
 ```
 
 **Tâches :**
