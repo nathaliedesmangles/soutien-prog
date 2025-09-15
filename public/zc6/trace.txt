@@ -12,12 +12,10 @@ Modifs faites
 - Enlever le system.out.println dans astuces
 - Ajouter : oublier le type des variables
 - # ligne pas nécessairement à 1 (comprendre que ligne vide comptent)
-
-À FAIRE
-
 - indiquer d'ouvrir ou de creer un .csv dans vs code
 - Faire solutions, fournir en pdf
 
+À FAIRE
 
 
 Erreur

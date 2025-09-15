@@ -135,6 +135,186 @@ FIN
 [Corrigé](./traces_corrigés.pdf)
 -->
 
+---
+
+## Débogage et erreurs fréquentes en Java avec VS Code
+
+* **Indentation automatique** : sélectionne ton code puis `Maj + Alt + Shift + F` (Windows/Linux).
+* **Erreurs soulignées** :
+
+  * 🔴 **Rouge** = Erreur bloquante (syntaxique ou compilation).
+  * 🔵 **Bleu** = Avertissement de norme / style (non bloquant).
+  * Survoler ou cliquer sur le soulignement → voir le message détaillé.
+
+---
+
+## Entrées avec `Scanner`
+
+**Problème courant avec `nextInt()` et `nextLine()` :**
+
+## En cours...
+
+<!--
+```java
+Scanner sc = new Scanner(System.in);
+int age = sc.nextInt();
+String nom = sc.nextLine(); // ⚠️ saute la saisie
+```
+
+>> Solution : **ajouter un `nextLine()` vide** après `nextInt()` pour consommer le retour chariot.
+
+```java
+int age = sc.nextInt();
+sc.nextLine();  // vide le buffer
+String nom = sc.nextLine();
+```
+
+---
+
+## Types d’erreurs en Java
+
+### 1. Erreurs de syntaxe (rouge dans VS Code)
+
+Exemple :
+
+```java
+int x = 5
+System.out.println(x);
+```
+
+>> Oubli du `;` → message d’erreur avec numéro de ligne.
+
+---
+
+### 2. Erreurs de normes (bleu dans VS Code)
+
+Exemple :
+
+```java
+int MaVariable = 5;  // convention camelCase non respectée
+```
+
+>> Message bleu : "Nom de variable non conforme aux conventions".
+
+---
+
+### 3. Erreurs de logique (programme s’exécute mais mauvais résultat)
+
+>> Utiliser **trace d’exécution** ou le **débogueur** (points d’arrêt, suivi ligne par ligne).
+
+Exemple : calcul de périmètre :
+
+```java
+perimetre = longueur + largeur * 2; // ⚠️ oubli des parenthèses
+```
+
+Résultat erroné. La **trace** montre l’évolution incorrecte des variables.
+
+---
+
+### 4. Erreurs d’exécution
+
+Programme compile mais plante en cours d’exécution.
+Exemple :
+
+```java
+int[] tab = new int[3];
+System.out.println(tab[5]); // ⚠️ Index 5 hors limite
+```
+
+>> Erreur dans le **Terminal** avec indication de la ligne.
+
+---
+
+### 5. Erreurs fréquentes
+
+* **Portée des variables** : variable déclarée dans une méthode n’est pas accessible ailleurs.
+* **Nom des variables ≠ nom des paramètres** :
+
+```java
+public static void afficherMessage(String message) {
+    String message = "Bonjour"; // ⚠️ redéclaration interdite
+}
+```
+
+* **Oublier d’initialiser une variable** :
+
+```java
+String texte;
+System.out.println(texte); // ⚠️ Variable peut ne pas avoir été initialisée
+```
+
+Initialiser : `String texte = null;` ou `= ""`.
+
+---
+
+## Affichage formaté
+
+* Exemple correct :
+
+```java
+int age = 20;
+System.out.printf("J’ai %d ans\n", age);
+```
+
+* Mauvais usage avec type incompatible :
+
+```java
+String nom = "Alice";
+System.out.printf("Nom : %d", nom); // ⚠️ type invalide
+```
+-->
+
+---
+
+## Atelier pratique
+
+### Étape 1 — Corriger le code
+
+Télécharger le fichier `AtelierErreurs.java` : [Fichier AtelierErreurs.java](./AtelierErreurs.java)
+
+Le fichier contient le code suivant:
+
+```java
+import java.util.Scanner;
+
+public class AtelierErreurs {
+    public static void main(String[] args) {
+        Scanner clavier = new Scanner(System.in);
+
+        // 1. Oublier d'initialiser une variable
+        int longueur, largeur, perimetre;
+
+        System.out.println("Entrez la longueur : ");
+        longueur = clavier.nextInt();
+
+        System.out.println("Entrez la largeur : ");
+        largeur = clavier.nextInt();
+
+        // 2. Erreur de logique : manque de parenthèses
+        perimetre = longueur + largeur * 2;
+
+        // 3. Erreur de formatage
+        System.out.printf("Le périmètre est : %s\n", perimetre);
+
+        // 4. Erreur d’exécution : index hors borne
+        int[] tableau = new int[2];
+        System.out.println(tableau[5]);
+
+        clavier.close();
+    }
+}
+```
+
+### Étape 2 — Travail demandé
+
+1. **Compiler et exécuter** le programme.
+2. **Capturer les erreurs** (copier/coller ou capture d’écran).
+3. **Identifier le type d’erreur** (syntaxe, norme, logique, exécution).
+4. **Corriger** le programme étape par étape.
+5. **Vérifier le résultat final** (avec trace et exécution).
+
+
 <!--
 
 * [Atelier Traces d'exécution](./atelier_trace.pdf)
