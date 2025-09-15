@@ -29,18 +29,18 @@ numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l
     <meta itemprop="wordCount" content="978">
     <title>Trace d&#39;exécution et messages d&#39;erreurs :: Soutien en programmation</title>
     <link href="/zc6/trace/index.xml" rel="alternate" type="application/rss+xml" title="Trace d&#39;exécution et messages d&#39;erreurs :: Soutien en programmation">
-    <link href="/images/logo.png?1757944905" rel="icon" type="image/png">
-    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757944905" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757944905" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757944905" rel="stylesheet">
-    <link href="/css/theme.min.css?1757944905" rel="stylesheet">
-    <link href="/css/format-html.min.css?1757944905" rel="stylesheet" id="R-format-style">
-    <link href="/css/auto-complete/auto-complete.min.css?1757944905" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1757944905" defer></script>
-    <script src="/js/lunr/lunr.min.js?1757944905" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1757944905" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1757944905" defer></script>
-    <script src="/js/lunr/lunr.en.min.js?1757944905" defer></script>
-    <script src="/js/search.min.js?1757944905" defer></script>
+    <link href="/images/logo.png?1757945478" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757945478" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1757945478" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1757945478" rel="stylesheet">
+    <link href="/css/theme.min.css?1757945478" rel="stylesheet">
+    <link href="/css/format-html.min.css?1757945478" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1757945478" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1757945478" defer></script>
+    <script src="/js/lunr/lunr.min.js?1757945478" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1757945478" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1757945478" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1757945478" defer></script>
+    <script src="/js/search.min.js?1757945478" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -50,7 +50,7 @@ numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l
       window.relearn.relBaseUri='..\/..';
       window.relearn.absBaseUri='https:\/\/example.org';
       window.relearn.contentLangs=['en'];
-      window.relearn.index_js_url="/searchindex.en.js?1757944905";
+      window.relearn.index_js_url="/searchindex.en.js?1757945478";
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -128,11 +128,16 @@ numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l
   </ul>
 
   <ul>
-    <li><a href="#rappels-1">Rappels</a>
+    <li><a href="#rappels-1">Rappels</a></li>
+    <li><a href="#types-derreurs-en-java">Types d’erreurs en Java</a>
       <ul>
-        <li><a href="#types-derreurs-en-java">Types d’erreurs en Java</a></li>
+        <li><a href="#1-erreurs-de-syntaxe-rouge-dans-vs-code">1. Erreurs de syntaxe (rouge dans VS Code)</a></li>
+        <li><a href="#2-erreurs-de-normes-bleu-dans-vs-code">2. Erreurs de normes (bleu dans VS Code)</a></li>
+        <li><a href="#3-erreurs-de-logique-programme-sexécute-mais-mauvais-résultat">3. Erreurs de logique (programme s’exécute mais mauvais résultat)</a></li>
+        <li><a href="#4-erreurs-dexécution">4. Erreurs d’exécution</a></li>
       </ul>
     </li>
+    <li><a href="#erreurs-fréquentes">Erreurs fréquentes</a></li>
     <li><a href="#atelier---erreurs">Atelier - Erreurs</a>
       <ul>
         <li><a href="#étape-1--corriger-le-code">Étape 1 — Corriger le code</a></li>
@@ -306,7 +311,39 @@ numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l
 </ul>
 </li>
 </ul>
-<p><strong>Entrées avec <code>Scanner</code>: Problème courant avec <code>nextInt()</code> et <code>nextLine()</code> :</strong></p>
+<h2 id="types-derreurs-en-java">Types d’erreurs en Java</h2>
+<h3 id="1-erreurs-de-syntaxe-rouge-dans-vs-code">1. Erreurs de syntaxe (rouge dans VS Code)</h3>
+<p><strong>Exemple</strong> :</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> 5
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x);</span></span></code></pre></div>
+<blockquote>
+<p>Oubli du <code>;</code> → message d’erreur avec numéro de ligne.</p>
+</blockquote>
+<h3 id="2-erreurs-de-normes-bleu-dans-vs-code">2. Erreurs de normes (bleu dans VS Code)</h3>
+<p><strong>Exemple</strong> :</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> MaVariable <span style="color:#f92672">=</span> 5;  <span style="color:#f92672">//</span> convention camelCase non respectée</span></span></code></pre></div>
+<blockquote>
+<p><strong>Message bleu</strong> : &ldquo;Nom de variable non conforme aux conventions&rdquo;.</p>
+</blockquote>
+<h3 id="3-erreurs-de-logique-programme-sexécute-mais-mauvais-résultat">3. Erreurs de logique (programme s’exécute mais mauvais résultat)</h3>
+<blockquote>
+<p>Utiliser <strong>trace d’exécution</strong> ou le <strong>débogueur</strong> (points d’arrêt, suivi ligne par ligne).</p>
+</blockquote>
+<p><strong>Exemple</strong> : calcul de périmètre :</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>perimetre <span style="color:#f92672">=</span> longueur <span style="color:#f92672">+</span> largeur <span style="color:#f92672">*</span> 2;   <span style="color:#f92672">//</span> oubli des parenthèses</span></span></code></pre></div>
+<p>Résultat erroné. La <strong>trace</strong> montre l’évolution incorrecte des variables.</p>
+<h3 id="4-erreurs-dexécution">4. Erreurs d’exécution</h3>
+<p>Programme compile mais plante en cours d’exécution.</p>
+<p><strong>Exemple</strong> (tableaux: notion vue plus tard cette session):</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> tab <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>3<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(tab<span style="color:#f92672">[</span>5<span style="color:#f92672">]</span>); 	<span style="color:#f92672">//</span> Index 5 hors limite</span></span></code></pre></div>
+<blockquote>
+<p>Erreur dans le <strong>Terminal</strong> avec indication de la ligne.</p>
+</blockquote>
+<h2 id="erreurs-fréquentes">Erreurs fréquentes</h2>
+<ul>
+<li><strong>Erreur d&rsquo;entrées avec <code>Scanner</code>- Problème courant avec <code>nextInt()</code> et <code>nextLine()</code> :</strong></li>
+</ul>
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Scanner sc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> age <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextInt</span>();
 </span></span><span style="display:flex;"><span>String nom <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextLine</span>(); <span style="color:#f92672">//</span> <span style="color:#960050;background-color:#1e0010">⚠</span>️ saute la saisie</span></span></code></pre></div>
@@ -316,36 +353,6 @@ numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> age <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextInt</span>();
 </span></span><span style="display:flex;"><span>sc.<span style="color:#a6e22e">nextLine</span>();  <span style="color:#75715e">// vide le buffer</span>
 </span></span><span style="display:flex;"><span>String nom <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextLine</span>();</span></span></code></pre></div>
-<h3 id="types-derreurs-en-java">Types d’erreurs en Java</h3>
-<h4 id="1-erreurs-de-syntaxe-rouge-dans-vs-code">1. Erreurs de syntaxe (rouge dans VS Code)</h4>
-<p><strong>Exemple</strong> :</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> 5
-</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x);</span></span></code></pre></div>
-<blockquote>
-<p>Oubli du <code>;</code> → message d’erreur avec numéro de ligne.</p>
-</blockquote>
-<h4 id="2-erreurs-de-normes-bleu-dans-vs-code">2. Erreurs de normes (bleu dans VS Code)</h4>
-<p><strong>Exemple</strong> :</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> MaVariable <span style="color:#f92672">=</span> 5;  <span style="color:#f92672">//</span> convention camelCase non respectée</span></span></code></pre></div>
-<blockquote>
-<p><strong>Message bleu</strong> : &ldquo;Nom de variable non conforme aux conventions&rdquo;.</p>
-</blockquote>
-<h4 id="3-erreurs-de-logique-programme-sexécute-mais-mauvais-résultat">3. Erreurs de logique (programme s’exécute mais mauvais résultat)</h4>
-<blockquote>
-<p>Utiliser <strong>trace d’exécution</strong> ou le <strong>débogueur</strong> (points d’arrêt, suivi ligne par ligne).</p>
-</blockquote>
-<p><strong>Exemple</strong> : calcul de périmètre :</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>perimetre <span style="color:#f92672">=</span> longueur <span style="color:#f92672">+</span> largeur <span style="color:#f92672">*</span> 2;   <span style="color:#f92672">//</span> oubli des parenthèses</span></span></code></pre></div>
-<p>Résultat erroné. La <strong>trace</strong> montre l’évolution incorrecte des variables.</p>
-<h4 id="4-erreurs-dexécution">4. Erreurs d’exécution</h4>
-<p>Programme compile mais plante en cours d’exécution.</p>
-<p><strong>Exemple</strong> (tableaux: notion vue plus tard cette session):</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> tab <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>3<span style="color:#f92672">]</span>;
-</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(tab<span style="color:#f92672">[</span>5<span style="color:#f92672">]</span>); 	<span style="color:#f92672">//</span> Index 5 hors limite</span></span></code></pre></div>
-<blockquote>
-<p>Erreur dans le <strong>Terminal</strong> avec indication de la ligne.</p>
-</blockquote>
-<h4 id="5-erreurs-fréquentes">5. Erreurs fréquentes</h4>
 <ul>
 <li><strong>Portée des variables</strong> : variable déclarée dans une méthode n’est pas accessible ailleurs.</li>
 <li><strong>Nom des variables ≠ nom des paramètres</strong> :</li>
@@ -361,15 +368,13 @@ numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l
 <blockquote>
 <p><strong>Initialiser</strong> : <code>String texte = null;</code> ou <code>= &quot;&quot;</code>.</p>
 </blockquote>
-<h4 id="6-affichage-formaté">6. Affichage formaté</h4>
 <ul>
-<li>Exemple correct :</li>
+<li><strong>Affichage formaté</strong> :</li>
 </ul>
+<p><strong>Exemple correct</strong> :</p>
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> age <span style="color:#f92672">=</span> 20;
 </span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;J’ai %d ans\n&#34;</span>, age);</span></span></code></pre></div>
-<ul>
-<li>Mauvais usage avec type incompatible :</li>
-</ul>
+<p><strong>Mauvais usage avec type incompatible</strong> :</p>
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>String nom <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Olivier&#34;</span>;
 </span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Nom : %d&#34;</span>, nom); <span style="color:#f92672">//</span> type invalide</span></span></code></pre></div>
 <hr>
@@ -492,8 +497,8 @@ numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/js/clipboard/clipboard.min.js?1757944905" defer></script>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757944905" defer></script>
-    <script src="/js/theme.min.js?1757944905" defer></script>
+    <script src="/js/clipboard/clipboard.min.js?1757945478" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1757945478" defer></script>
+    <script src="/js/theme.min.js?1757945478" defer></script>
   </body>
 </html>

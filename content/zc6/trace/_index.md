@@ -146,7 +146,61 @@ FIN
   * 🔵 **Bleu** = Avertissement de norme / style (non bloquant).
   * Survoler ou cliquer sur le soulignement → voir le message détaillé.
 
-**Entrées avec `Scanner`: Problème courant avec `nextInt()` et `nextLine()` :**
+## Types d’erreurs en Java
+
+### 1. Erreurs de syntaxe (rouge dans VS Code)
+
+**Exemple** :
+
+```java
+int x = 5
+System.out.println(x);
+```
+
+> Oubli du `;` → message d’erreur avec numéro de ligne.
+
+
+### 2. Erreurs de normes (bleu dans VS Code)
+
+**Exemple** :
+
+```java
+int MaVariable = 5;  // convention camelCase non respectée
+```
+
+> **Message bleu** : "Nom de variable non conforme aux conventions".
+
+
+### 3. Erreurs de logique (programme s’exécute mais mauvais résultat)
+
+> Utiliser **trace d’exécution** ou le **débogueur** (points d’arrêt, suivi ligne par ligne).
+
+**Exemple** : calcul de périmètre :
+
+```java
+perimetre = longueur + largeur * 2;   // oubli des parenthèses
+```
+
+Résultat erroné. La **trace** montre l’évolution incorrecte des variables.
+
+
+### 4. Erreurs d’exécution
+
+Programme compile mais plante en cours d’exécution.  
+
+**Exemple** (tableaux: notion vue plus tard cette session):
+
+```java
+int[] tab = new int[3];
+System.out.println(tab[5]); 	// Index 5 hors limite
+```
+
+> Erreur dans le **Terminal** avec indication de la ligne.
+
+
+## Erreurs fréquentes
+
+* **Erreur d'entrées avec `Scanner`- Problème courant avec `nextInt()` et `nextLine()` :**
 
 ```java
 Scanner sc = new Scanner(System.in);
@@ -161,60 +215,6 @@ int age = sc.nextInt();
 sc.nextLine();  // vide le buffer
 String nom = sc.nextLine();
 ```
-
-### Types d’erreurs en Java
-
-#### 1. Erreurs de syntaxe (rouge dans VS Code)
-
-**Exemple** :
-
-```java
-int x = 5
-System.out.println(x);
-```
-
-> Oubli du `;` → message d’erreur avec numéro de ligne.
-
-
-#### 2. Erreurs de normes (bleu dans VS Code)
-
-**Exemple** :
-
-```java
-int MaVariable = 5;  // convention camelCase non respectée
-```
-
-> **Message bleu** : "Nom de variable non conforme aux conventions".
-
-
-#### 3. Erreurs de logique (programme s’exécute mais mauvais résultat)
-
-> Utiliser **trace d’exécution** ou le **débogueur** (points d’arrêt, suivi ligne par ligne).
-
-**Exemple** : calcul de périmètre :
-
-```java
-perimetre = longueur + largeur * 2;   // oubli des parenthèses
-```
-
-Résultat erroné. La **trace** montre l’évolution incorrecte des variables.
-
-
-#### 4. Erreurs d’exécution
-
-Programme compile mais plante en cours d’exécution.  
-
-**Exemple** (tableaux: notion vue plus tard cette session):
-
-```java
-int[] tab = new int[3];
-System.out.println(tab[5]); 	// Index 5 hors limite
-```
-
-> Erreur dans le **Terminal** avec indication de la ligne.
-
-
-#### 5. Erreurs fréquentes
 
 * **Portée des variables** : variable déclarée dans une méthode n’est pas accessible ailleurs.
 * **Nom des variables ≠ nom des paramètres** :
@@ -235,16 +235,16 @@ System.out.println(texte); // Variable peut ne pas avoir été initialisée
 > **Initialiser** : `String texte = null;` ou `= ""`.
 
 
-#### 6. Affichage formaté
+* **Affichage formaté** :
 
-* Exemple correct :
+**Exemple correct** :
 
 ```java
 int age = 20;
 System.out.printf("J’ai %d ans\n", age);
 ```
 
-* Mauvais usage avec type incompatible :
+**Mauvais usage avec type incompatible** :
 
 ```java
 String nom = "Olivier";
