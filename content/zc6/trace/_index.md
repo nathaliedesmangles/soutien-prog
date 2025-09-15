@@ -73,7 +73,7 @@ FIN
 4    public static void main(String[] args) {
 5        Scanner sc = new Scanner(System.in);
 6
-7        int longueur, largeur, surface;8
+7        int longueur, largeur, surface;
 8
 9        System.out.println("Entrez la longueur");
 10       longueur = sc.nextInt();
