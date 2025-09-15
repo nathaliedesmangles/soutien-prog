@@ -8,6 +8,8 @@ weight = 1
 * Mardi 16 septembre de 12:00 à 14:00
 * **Local** : B-3317
 
+# Trace d'exécution
+
 ## Rappels
 
 * La trace est un outil de vérification universel, pas seulement pour l’examen ou pour java, mais aussi pour déboguer n'importe quel programme écrit avec n'importe quel langage.
@@ -18,7 +20,6 @@ weight = 1
 
 * **Pense-bête** : "Toujours inscrire les changements, toujours vérifier le Terminal/console".
 
----
 
 ## Mise en commun
 
@@ -27,7 +28,7 @@ weight = 1
 
 ---
 
-## Atelier interactif
+## Atelier - Trace
 
 ### Objectifs pédagogiques
 
@@ -62,7 +63,6 @@ FIN
 
 **Discussion** : que se passe-t-il si on oublie les parenthèses à la ligne 5 ?
 
----
 
 ### Algorithme 2: calcul de la surface d’un rectangle (petite erreur à corriger)
 
@@ -96,7 +96,6 @@ FIN
 3. En binôme, identifiez l’erreur et proposez la correction.
 4. Refaire la trace avec l’algorithme corrigé.
 
----
 
 ### Algorithme 3: calcul du coût total d’un achat
 
@@ -137,31 +136,25 @@ FIN
 
 ---
 
-## Débogage et erreurs fréquentes en Java avec VS Code
+# Débogage et erreurs fréquentes en Java avec VS Code
+
+## Rappels
 
 * **Indentation automatique** : sélectionne ton code puis `Maj + Alt + Shift + F` (Windows/Linux).
 * **Erreurs soulignées** :
-
   * 🔴 **Rouge** = Erreur bloquante (syntaxique ou compilation).
   * 🔵 **Bleu** = Avertissement de norme / style (non bloquant).
   * Survoler ou cliquer sur le soulignement → voir le message détaillé.
 
----
+**Entrées avec `Scanner`: Problème courant avec `nextInt()` et `nextLine()` :**
 
-## Entrées avec `Scanner`
-
-**Problème courant avec `nextInt()` et `nextLine()` :**
-
-## En cours...
-
-<!--
 ```java
 Scanner sc = new Scanner(System.in);
 int age = sc.nextInt();
 String nom = sc.nextLine(); // ⚠️ saute la saisie
 ```
 
->> Solution : **ajouter un `nextLine()` vide** après `nextInt()` pour consommer le retour chariot.
+> **Solution** : ajouter un `nextLine()` **vide** après `nextInt()` pour consommer le retour chariot.
 
 ```java
 int age = sc.nextInt();
@@ -169,71 +162,66 @@ sc.nextLine();  // vide le buffer
 String nom = sc.nextLine();
 ```
 
----
+### Types d’erreurs en Java
 
-## Types d’erreurs en Java
+#### 1. Erreurs de syntaxe (rouge dans VS Code)
 
-### 1. Erreurs de syntaxe (rouge dans VS Code)
-
-Exemple :
+**Exemple** :
 
 ```java
 int x = 5
 System.out.println(x);
 ```
 
->> Oubli du `;` → message d’erreur avec numéro de ligne.
+> Oubli du `;` → message d’erreur avec numéro de ligne.
 
----
 
-### 2. Erreurs de normes (bleu dans VS Code)
+#### 2. Erreurs de normes (bleu dans VS Code)
 
-Exemple :
+**Exemple** :
 
 ```java
 int MaVariable = 5;  // convention camelCase non respectée
 ```
 
->> Message bleu : "Nom de variable non conforme aux conventions".
+> **Message bleu** : "Nom de variable non conforme aux conventions".
 
----
 
-### 3. Erreurs de logique (programme s’exécute mais mauvais résultat)
+#### 3. Erreurs de logique (programme s’exécute mais mauvais résultat)
 
->> Utiliser **trace d’exécution** ou le **débogueur** (points d’arrêt, suivi ligne par ligne).
+> Utiliser **trace d’exécution** ou le **débogueur** (points d’arrêt, suivi ligne par ligne).
 
-Exemple : calcul de périmètre :
+**Exemple** : calcul de périmètre :
 
 ```java
-perimetre = longueur + largeur * 2; // ⚠️ oubli des parenthèses
+perimetre = longueur + largeur * 2;   // oubli des parenthèses
 ```
 
 Résultat erroné. La **trace** montre l’évolution incorrecte des variables.
 
----
 
-### 4. Erreurs d’exécution
+#### 4. Erreurs d’exécution
 
-Programme compile mais plante en cours d’exécution.
-Exemple :
+Programme compile mais plante en cours d’exécution.  
+
+**Exemple** (tableaux: notion vue plus tard cette session):
 
 ```java
 int[] tab = new int[3];
-System.out.println(tab[5]); // ⚠️ Index 5 hors limite
+System.out.println(tab[5]); 	// Index 5 hors limite
 ```
 
->> Erreur dans le **Terminal** avec indication de la ligne.
+> Erreur dans le **Terminal** avec indication de la ligne.
 
----
 
-### 5. Erreurs fréquentes
+#### 5. Erreurs fréquentes
 
 * **Portée des variables** : variable déclarée dans une méthode n’est pas accessible ailleurs.
 * **Nom des variables ≠ nom des paramètres** :
 
 ```java
 public static void afficherMessage(String message) {
-    String message = "Bonjour"; // ⚠️ redéclaration interdite
+    String message = "Bonjour"; // redéclaration interdite
 }
 ```
 
@@ -241,14 +229,13 @@ public static void afficherMessage(String message) {
 
 ```java
 String texte;
-System.out.println(texte); // ⚠️ Variable peut ne pas avoir été initialisée
+System.out.println(texte); // Variable peut ne pas avoir été initialisée
 ```
 
-Initialiser : `String texte = null;` ou `= ""`.
+> **Initialiser** : `String texte = null;` ou `= ""`.
 
----
 
-## Affichage formaté
+#### 6. Affichage formaté
 
 * Exemple correct :
 
@@ -260,18 +247,17 @@ System.out.printf("J’ai %d ans\n", age);
 * Mauvais usage avec type incompatible :
 
 ```java
-String nom = "Alice";
-System.out.printf("Nom : %d", nom); // ⚠️ type invalide
+String nom = "Olivier";
+System.out.printf("Nom : %d", nom); // type invalide
 ```
--->
 
 ---
 
-## Atelier pratique
+## Atelier - Erreurs
 
 ### Étape 1 — Corriger le code
 
-Télécharger le fichier `AtelierErreurs.java` : [Fichier AtelierErreurs.java](./AtelierErreurs.java)
+Télécharger le fichier `AtelierErreurs.java` : [AtelierErreurs.java](./AtelierErreurs.java)
 
 Le fichier contient le code suivant:
 

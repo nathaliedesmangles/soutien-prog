@@ -12,7 +12,7 @@
       <link>https://example.org/zc6/trace/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/zc6/trace/index.html</guid>
-      <description>Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Rappels La trace est un outil de vérification universel, pas seulement pour l’examen ou pour java, mais aussi pour déboguer n’importe quel programme écrit avec n’importe quel langage.&#xA;Faire la trace d’un programme consiste à utiliser la liste de vérification, un tableau dans lequel on :&#xA;numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l’algorithme.</description>
+      <description>Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Trace d’exécution Rappels La trace est un outil de vérification universel, pas seulement pour l’examen ou pour java, mais aussi pour déboguer n’importe quel programme écrit avec n’importe quel langage.&#xA;Faire la trace d’un programme consiste à utiliser la liste de vérification, un tableau dans lequel on :&#xA;numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l’algorithme.</description>
     </item>
     <item>
       <title>Sous-programmes et structures conditionnelles</title>
