@@ -132,6 +132,10 @@ FIN
 3. Puis refaire la trace avec prix = 7,50 et quantite = 5.
 
 <!--
+[Corrigé](./traces_corrigés.pdf)
+-->
+
+<!--
 
 * [Atelier Traces d'exécution](./atelier_trace.pdf)
 	* [Fichier .csv pour l'exemple A](./trace_exemple_A.csv)
