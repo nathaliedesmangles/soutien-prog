@@ -6,14 +6,13 @@ weight = 1
 
 ## Sujets ciblés
 
-> **Semaine #4**: Mardi 16 septembre  (0 étudiants)
+> **Semaine #4**: Mardi 16 septembre  (0 étudiants)  
 [Trace d'exécution et messages d'erreurs](./trace)
 
 
-> **Semaine #7**: Mardi 30 septembre ou 14 octobre (**Date t sujet à confirmer**)  
-<!--
+> **Semaine #7**: Mardi 30 septembre ou 14 octobre (**Date et sujet à confirmer**)  
 [Sous-programme et structures conditionnelles](./fonctions-if)
--->
+
 
 > **Semaine #11**: Mardi 13 novembre (**à confirmer**)  
 [Boucles et débogueur](./boucles-debug)
