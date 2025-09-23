@@ -17,8 +17,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Soutien en programmation",
-    "content": "Sujets ciblés Semaine #4: Mardi 16 septembre\nTrace d’exécution et messages d’erreurs\nSemaine #7: Mardi 14 octobre (à confirmer)\nSous-programme et structures conditionnelles\nSemaine #11: Mardi 13 novembre (à confirmer)\nBoucles et débogueur",
-    "description": "Sujets ciblés Semaine #4: Mardi 16 septembre\nTrace d’exécution et messages d’erreurs\nSemaine #7: Mardi 14 octobre (à confirmer)\nSous-programme et structures conditionnelles\nSemaine #11: Mardi 13 novembre (à confirmer)\nBoucles et débogueur",
+    "content": "Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants) Trace d’exécution et messages d’erreurs\nSemaine #7: Mardi 30 septembre ou 14 octobre (Date t sujet à confirmer)\nSemaine #11: Mardi 13 novembre (à confirmer)\nBoucles et débogueur",
+    "description": "Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants) Trace d’exécution et messages d’erreurs\nSemaine #7: Mardi 30 septembre ou 14 octobre (Date t sujet à confirmer)\nSemaine #11: Mardi 13 novembre (à confirmer)\nBoucles et débogueur",
     "tags": [],
     "title": "Soutien pour le ZC6",
     "uri": "/zc6/index.html"
@@ -41,8 +41,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Soutien en programmation",
-    "content": "Sujets ciblés Semaine #6: Mardi 30 septembre\nChemins relatif vs absolu\nSemaine #13: Mardi 25 octobre (sujets et date à confirmer)\nJavaScript",
-    "description": "Sujets ciblés Semaine #6: Mardi 30 septembre\nChemins relatif vs absolu\nSemaine #13: Mardi 25 octobre (sujets et date à confirmer)\nJavaScript",
+    "content": "Sujets ciblés Semaine #12: Mardi 18 novembre (sujets à confirmer)\nOU\nSemaine #13: Mardi 25 novembre (sujets et date à confirmer)",
+    "description": "Sujets ciblés Semaine #12: Mardi 18 novembre (sujets à confirmer)\nOU\nSemaine #13: Mardi 25 novembre (sujets et date à confirmer)",
     "tags": [],
     "title": "Soutien pour le 3E5",
     "uri": "/3e5/index.html"
