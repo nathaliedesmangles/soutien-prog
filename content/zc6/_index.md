@@ -10,7 +10,7 @@ weight = 1
 [Trace d'exécution et messages d'erreurs](./trace)
 
 
-> **Semaine #7**: Mardi 30 septembre ou 14 octobre (**Date et sujet à confirmer**)  
+> **Semaine #7**: Mardi 21 octobre (**Date et sujet à confirmer**)  
 [Sous-programme et structures conditionnelles](./fonctions-if)
 
 
