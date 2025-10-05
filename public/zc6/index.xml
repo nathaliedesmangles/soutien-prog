@@ -3,7 +3,7 @@
   <channel>
     <title>Soutien pour le ZC6 :: Soutien en programmation</title>
     <link>https://example.org/zc6/index.html</link>
-    <description>Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants)&#xA;Trace d’exécution et messages d’erreurs&#xA;Semaine #7: Mardi 21 octobre (Date et sujet à confirmer)&#xA;Sous-programme et structures conditionnelles&#xA;Semaine #11: Mardi 13 novembre (à confirmer)&#xA;Boucles et débogueur</description>
+    <description>Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants)&#xA;Trace d’exécution et messages d’erreurs&#xA;Semaine #7: Mardi 7 octobre (pas eu lieu) Sous-programme et structures conditionnelles&#xA;Semaine #8: Mardi 21 octobre Sous-programme et structures conditionnelles&#xA;Semaine #11: Mardi 13 novembre (à confirmer)&#xA;Boucles et débogueur</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/zc6/index.xml" rel="self" type="application/rss+xml" />
@@ -34,6 +34,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/zc6/tableaux/index.html</guid>
       <description>Quand et où ? Mardi 2 décembre de 12:00 à 14:00 Local : B-3317</description>
+    </item>
+    <item>
+      <title>Préparation de feuilles de notes pour un examen (Java)</title>
+      <link>https://example.org/zc6/feuilles_notes/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/zc6/feuilles_notes/index.html</guid>
+      <description>Objectifs pédagogiques Savoir identifier les éléments essentiels à mettre sur une feuille de notes. Comprendre comment organiser l’information pour qu’elle soit utile rapidement pendant l’examen. Pratiquer la mise en forme d’une feuille de notes claire et synthétique. 1. Introduction Discussion rapide : « Quand vous avez le droit à une feuille de notes, qu’est-ce qui est le plus important : écrire tout ou écrire l’essentiel ? »&#xA;Une feuille de notes n’est pas un manuel → c’est un aide-mémoire.</description>
     </item>
   </channel>
 </rss>
