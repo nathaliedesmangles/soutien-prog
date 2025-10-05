@@ -3,7 +3,7 @@
   <channel>
     <title>Soutien pour le ZC6 :: Soutien en programmation</title>
     <link>https://example.org/zc6/index.html</link>
-    <description>Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants)&#xA;Trace d’exécution et messages d’erreurs&#xA;Semaine #7: Mardi 7 octobre (pas eu lieu) Sous-programme et structures conditionnelles&#xA;Semaine #8: Mardi 21 octobre Sous-programme et structures conditionnelles&#xA;Semaine #11: Mardi 13 novembre (à confirmer)&#xA;Boucles et débogueur</description>
+    <description>Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants)&#xA;Trace d’exécution et messages d’erreurs&#xA;Semaine #7: Mardi 7 octobre (pas eu lieu, conflit avec 1 réunion départementale)&#xA;Sous-programme et structures conditionnelles&#xA;Semaine #8: Mardi 21 octobre&#xA;Aide à la préparation des feuilles de notes&#xA;Semaine #11: Mardi 13 novembre (à confirmer)&#xA;Boucles et débogueur</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/zc6/index.xml" rel="self" type="application/rss+xml" />

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liste des fiches :: Soutien en programmation</title>
-    <link>http://localhost:1313/3e5/fiches/index.html</link>
+    <link>http://localhost:65448/3e5/fiches/index.html</link>
     <description>Parfait 👍 Voici une proposition de fiches pédagogiques classées par difficulté pour les notions où les débutants en JavaScript rencontrent souvent des difficultés :&#xA;📘 Fiches pédagogiques – JavaScript pour débutants 🟢 Niveau 1 – Les bases Variables et constantes&#xA;let, const, var : différences et bonnes pratiques Types de données de base : string, number, boolean, null, undefined Exercices : déclarer des variables et les afficher avec console.log() Concaténation et interpolation de chaînes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/3e5/fiches/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:65448/3e5/fiches/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

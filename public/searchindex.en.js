@@ -17,8 +17,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Soutien en programmation",
-    "content": "Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants)\nTrace d’exécution et messages d’erreurs\nSemaine #7: Mardi 7 octobre (pas eu lieu) Sous-programme et structures conditionnelles\nSemaine #8: Mardi 21 octobre Sous-programme et structures conditionnelles\nSemaine #11: Mardi 13 novembre (à confirmer)\nBoucles et débogueur",
-    "description": "Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants)\nTrace d’exécution et messages d’erreurs\nSemaine #7: Mardi 7 octobre (pas eu lieu) Sous-programme et structures conditionnelles\nSemaine #8: Mardi 21 octobre Sous-programme et structures conditionnelles\nSemaine #11: Mardi 13 novembre (à confirmer)\nBoucles et débogueur",
+    "content": "Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants)\nTrace d’exécution et messages d’erreurs\nSemaine #7: Mardi 7 octobre (pas eu lieu, conflit avec 1 réunion départementale)\nSous-programme et structures conditionnelles\nSemaine #8: Mardi 21 octobre\nAide à la préparation des feuilles de notes\nSemaine #11: Mardi 13 novembre (à confirmer)\nBoucles et débogueur",
+    "description": "Sujets ciblés Semaine #4: Mardi 16 septembre (0 étudiants)\nTrace d’exécution et messages d’erreurs\nSemaine #7: Mardi 7 octobre (pas eu lieu, conflit avec 1 réunion départementale)\nSous-programme et structures conditionnelles\nSemaine #8: Mardi 21 octobre\nAide à la préparation des feuilles de notes\nSemaine #11: Mardi 13 novembre (à confirmer)\nBoucles et débogueur",
     "tags": [],
     "title": "Soutien pour le ZC6",
     "uri": "/zc6/index.html"
