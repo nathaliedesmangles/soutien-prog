@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liste des notions :: Soutien en programmation</title>
-    <link>http://localhost:65448/3e5/notions/index.html</link>
+    <link>http://localhost:1313/3e5/notions/index.html</link>
     <description>Voici une liste des notions en JavaScript qui posent souvent problème aux débutants (classées par thèmes et difficulté croissante) :&#xA;🔹 Bases et syntaxe Différence entre let, const et var (portée et réassignation) Typage dynamique (nombre, chaîne, booléen, objet → tout peut changer de type) Concaténation vs interpolation (+ vs `${}`) Comprendre la valeur undefined et la différence avec null 🔹 Structures de contrôle Syntaxe correcte des conditions (if, else if, else) Comparaisons : == vs === (égalité faible vs stricte) Les boucles (for, while, for.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:65448/3e5/notions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/3e5/notions/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
