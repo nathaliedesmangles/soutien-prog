@@ -1,11 +1,11 @@
 +++
-title = "Boucles et débogueur"
+title = "Boucles (ordinogrammes, trace) et opérateurs"
 weight = 3
 +++
 
 ## Quand et où ?
 
-* Jeudi 13 novembre de 12:00 à 14:00 (horaire du mardi)
+* Mardi 18 novembre de 12:00 à 14:00
 * **Local** : B-3317
 
 ### Boucles[^1] (à venir)
@@ -25,7 +25,7 @@ weight = 3
 ![do while](./boucle-do-while.jpg?width=35vw)
 
 
-### Débogueur
+### Opérateurs d'incrémentation/décrémentation et d'affectation
 
 
 [^1]: Images proviennent du site WayToLearnX

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boucles (ordinogrammes, trace) et opérateurs :: Soutien en programmation</title>
+    <link>https://example.org/zc6/boucles-op&#43;&#43;/index.html</link>
+    <description>Quand et où ? Mardi 18 novembre de 12:00 à 14:00 Local : B-3317 Boucles1 (à venir) Boucle for Boucle while Boucle do while Opérateurs d’incrémentation/décrémentation et d’affectation Images proviennent du site WayToLearnX ↩︎</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/zc6/boucles-op++/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

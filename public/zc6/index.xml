@@ -12,7 +12,7 @@
       <link>https://example.org/zc6/trace/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/zc6/trace/index.html</guid>
-      <description>Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Trace d’exécution Rappels La trace est un outil de vérification universel, pas seulement pour l’examen ou pour java, mais aussi pour déboguer n’importe quel programme écrit avec n’importe quel langage.&#xA;Faire la trace d’un programme consiste à utiliser la liste de vérification, un tableau dans lequel on :&#xA;numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l’algorithme.</description>
+      <description>Quand et où ? Mardi 16 septembre de 12:00 à 14:00 Local : B-3317 Trace d’exécution Rappels La trace est un outil de vérification universel, pas seulement pour l’examen ou pour java, mais aussi pour déboguer n’importe quel programme écrit avec n’importe quel langage.&#xA;Faire la trace d’un programme consiste à utiliser la liste de vérification, un tableau dans lequel on :&#xA;numérote les lignes correspondantes aux lignes du code entre DÉBUT et FIN de l’algorithme. inscrit seulement les changements dans les valeurs des variables après l’exécution de chaque ligne numérotée. inclus la colonne Terminal/console pour indiquer les affichages dans le Terminal. Pense-bête : “Toujours inscrire les changements, toujours vérifier le Terminal/console”.</description>
     </item>
     <item>
       <title>Sous-programmes et structures conditionnelles</title>
@@ -22,11 +22,11 @@
       <description>Quand et où ? Mardi 7 ou 14 octobre de 12:00 à 14:00 (**à confirmer) Local : B-3317 Sous-programmes (procédures et fonctions)1 Structures conditionnelles Images proviennent du site WayToLearnX ↩︎</description>
     </item>
     <item>
-      <title>Boucles et débogueur</title>
-      <link>https://example.org/zc6/boucles-debug/index.html</link>
+      <title>Boucles (ordinogrammes, trace) et opérateurs</title>
+      <link>https://example.org/zc6/boucles-op&#43;&#43;/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/zc6/boucles-debug/index.html</guid>
-      <description>Quand et où ? Jeudi 13 novembre de 12:00 à 14:00 (horaire du mardi) Local : B-3317 Boucles1 (à venir) Boucle for Boucle while Boucle do while Débogueur Images proviennent du site WayToLearnX ↩︎</description>
+      <guid>https://example.org/zc6/boucles-op&#43;&#43;/index.html</guid>
+      <description>Quand et où ? Mardi 18 novembre de 12:00 à 14:00 Local : B-3317 Boucles1 (à venir) Boucle for Boucle while Boucle do while Opérateurs d’incrémentation/décrémentation et d’affectation Images proviennent du site WayToLearnX ↩︎</description>
     </item>
     <item>
       <title>Tableaux (à confirmer)</title>

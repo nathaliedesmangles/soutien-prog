@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.3">
+    <meta name="generator" content="Hugo 0.152.2">
     <meta name="generator" content="Relearn 7.6.1+b0c6bb558d7728ac4535a2ac677c5f47297203cc">
     <meta name="description" content="Quand et où ? Mardi 30 septembre de 12:00 à 14:00 Local : B-3317 Rappels Chemin absolu Contient l’adresse complète (depuis la racine du site ou une URL externe). Utilisé pour pointer vers un fichier n’importe où sur le web. Exemples : &lt;!-- Image --&gt; &lt;img src=&#34;https://exemple.com/images/logo.png&#34;&gt;Avantage : toujours le même, peu importe la page. Inconvénient : moins flexible si tu déplaces ton projet. Chemin relatif Dépend de l’endroit où se trouve le fichier actuel (fichier où l’url est écrite).">
     <meta name="author" content="">
@@ -21,18 +21,18 @@
     <meta itemprop="wordCount" content="773">
     <title>Chemins relatif vs absolu :: Soutien en programmation</title>
     <link href="/3e5/html-css/index.xml" rel="alternate" type="application/rss+xml" title="Chemins relatif vs absolu :: Soutien en programmation">
-    <link href="/images/logo.png?1760826204" rel="icon" type="image/png">
-    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1760826204" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1760826204" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1760826204" rel="stylesheet">
-    <link href="/css/theme.min.css?1760826204" rel="stylesheet">
-    <link href="/css/format-html.min.css?1760826204" rel="stylesheet" id="R-format-style">
-    <link href="/css/auto-complete/auto-complete.min.css?1760826204" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1760826204" defer></script>
-    <script src="/js/lunr/lunr.min.js?1760826204" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1760826204" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1760826204" defer></script>
-    <script src="/js/lunr/lunr.en.min.js?1760826204" defer></script>
-    <script src="/js/search.min.js?1760826204" defer></script>
+    <link href="/images/logo.png?1762801631" rel="icon" type="image/png">
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1762801631" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1762801631" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1762801631" rel="stylesheet">
+    <link href="/css/theme.min.css?1762801631" rel="stylesheet">
+    <link href="/css/format-html.min.css?1762801631" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1762801631" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1762801631" defer></script>
+    <script src="/js/lunr/lunr.min.js?1762801631" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1762801631" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1762801631" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1762801631" defer></script>
+    <script src="/js/search.min.js?1762801631" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -42,7 +42,7 @@
       window.relearn.relBaseUri='..\/..';
       window.relearn.absBaseUri='https:\/\/example.org';
       window.relearn.contentLangs=['en'];
-      window.relearn.index_js_url="/searchindex.en.js?1760826204";
+      window.relearn.index_js_url="/searchindex.en.js?1762801631";
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -88,7 +88,7 @@
       window.T_No_results_found = `No results found for "{0}"`;
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
-    <link href="/css/custom.css?1760826204" rel="stylesheet">
+    <link href="/css/custom.css?1762801631" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/3e5/html-css/index.html">
     <div id="R-body" class="default-animation">
@@ -160,363 +160,11 @@
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable 3e5" tabindex="-1">
         <div class="flex-block-wrapper">
-<article class="default">
-  <header class="headline">
-  </header>
-
-<h1 id="chemins-relatif-vs-absolu">Chemins relatif vs absolu</h1>
-
-<h2 id="quand-et-où-">Quand et où ?</h2>
-<ul>
-<li>Mardi 30 septembre de 12:00 à 14:00</li>
-<li><strong>Local</strong> : B-3317</li>
-</ul>
-<h2 id="rappels">Rappels</h2>
-<h3 id="chemin-absolu">Chemin absolu</h3>
-<ul>
-<li>Contient <strong>l’adresse complète</strong> (depuis la racine du site ou une URL externe).</li>
-<li>Utilisé pour pointer vers un fichier <strong>n’importe où sur le web</strong>.</li>
-<li><strong>Exemples :</strong>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- Image --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://exemple.com/images/logo.png&#34;</span>&gt;</span></span></code></pre></div>
-</li>
-<li><strong>Avantage</strong> : toujours le même, peu importe la page.</li>
-<li><strong>Inconvénient</strong> : moins flexible si tu déplaces ton projet.</li>
-</ul>
-<h3 id="chemin-relatif">Chemin relatif</h3>
-<ul>
-<li>
-<p>Dépend de l’endroit où se trouve <strong>le fichier actuel</strong> (fichier où l&rsquo;url est écrite).</p>
-</li>
-<li>
-<p>Utilisé à l’intérieur d’un projet.</p>
-</li>
-<li>
-<p><strong>Symboles utiles :</strong></p>
-<ul>
-<li><code>./</code> → le dossier courant (souvent implicite).</li>
-<li><code>../</code> → remonter d’un dossier.</li>
-<li><code>../../</code> → remonter de deux dossier, etc..</li>
-</ul>
-</li>
-<li>
-<p><strong>Exemples :</strong></p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- Image dans le même dossier que le fichier actuel --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;image.png&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- CSS dans un dossier voisin --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;../css/style.css&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- JS dans un sous-dossier --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./js/app.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- image dans un sous-sous dossier --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;../../images/galerie/photo.png&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Photo depuis sous-dossier&#34;</span>&gt;</span></span></code></pre></div>
-</li>
-<li>
-<p><strong>Avantage</strong> : portable, fonctionne si on déplace le projet.</p>
-</li>
-<li>
-<p><strong>Inconvénient</strong> : peut devenir confus avec beaucoup de <code>../</code>.</p>
-</li>
-</ul>
-<h2 id="exemples">Exemples</h2>
-<h3 id="schéma-de-dossiers">Schéma de dossiers</h3>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>projet/
-│── index.html
-│── style.css
-│── script.js
-├── images/
-│    └── photo.png
-└── css/
-     └── theme.css</code></pre></div>
-<h3 id="chemins-relatifs-depuis-indexhtml">Chemins relatifs depuis index.html</h3>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>&lt;link rel=&#34;stylesheet&#34; href=&#34;style.css&#34;&gt;       &lt;!-- même dossier --&gt;
-&lt;script src=&#34;script.js&#34;&gt;&lt;/script&gt;              &lt;!-- même dossier --&gt;
-&lt;img src=&#34;images/photo.png&#34;&gt;                   &lt;!-- sous-dossier --&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;css/theme.css&#34;&gt;   &lt;!-- sous-dossier --&gt;</code></pre></div>
-<h3 id="chemins-relatifs-depuis-cssthemecss">Chemins relatifs depuis css/theme.css</h3>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>body {
-  background-image: url(&#34;../images/photo.png&#34;); /* remonter 1 dossier */
-}</code></pre></div>
-<hr>
-
-<details open class=" box cstyle notices accent">
-  <summary class="box-label" tabindex="-1">
-    <i class="fa-fw fas fa-stopwatch"></i> 
-    À savoir
-  </summary>
-  <div class="box-content">
-<p>Les chemins <strong>absolus</strong> varient d&rsquo;un système d&rsquo;exploitation à l&rsquo;autre, tandis que les chemins <strong>relatifs</strong> n&rsquo;ont pas d&rsquo;impact direct sur l&rsquo;utilisation de chemins absolus. Par exemple:</p>
-<ul>
-<li><strong>Windows</strong> utilise des lettres de lecteur et des barres obliques inversées (<code>\``), comme </code>C:\Dossier\Fichier.txt`, alors que</li>
-<li><strong>les systèmes Unix (comme Linux ou macOS)</strong> utilisent une barre oblique pour la racine et des barres obliques normales (<code>/</code>), par exemple <code>/dossier/fichier.txt</code>.</li>
-</ul>
-  </div>
-</details>
-<hr>
-<h2 id="atelier-interactif">Atelier interactif</h2>
-<h3 id="objectifs-pédagogiques">Objectifs pédagogiques</h3>
-<ol>
-<li>Distinguer un chemin absolu d’un chemin relatif.</li>
-<li>Utiliser correctement les chemins relatifs dans une structure de projet.</li>
-<li>Repérer et corriger des erreurs fréquentes liées aux chemins.</li>
-</ol>
-<hr>
-<h3 id="fichier-à-télécharger">Fichier à télécharger</h3>
-<ul>
-<li><strong>L&rsquo;image</strong> <a href="#R-image-afbe549d95bf682f6ad8d472119eccc7" class="lightbox-link"><img alt="chat.png" class="lazy lightbox figure-image" loading="lazy" src="/3e5/html-css/chat.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-afbe549d95bf682f6ad8d472119eccc7"><img alt="chat.png" class="lazy lightbox lightbox-image" loading="lazy" src="/3e5/html-css/chat.png"></a></li>
-</ul>
-<h3 id="fichiers-à-créer">Fichiers à créer</h3>
-<ul>
-<li><strong>Fichier <code>index.html</code></strong></li>
-</ul>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fr&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">title</span>&gt;Atelier chemins&lt;/<span style="color:#f92672">title</span>&gt;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">&lt;!-- A compléter --&gt;</span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;???&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">&lt;!-- A compléter --&gt;</span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;???&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h1</span>&gt;Atelier : chemins absolus vs relatifs&lt;/<span style="color:#f92672">h1</span>&gt;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h2</span>&gt;Image locale (chemin relatif)&lt;/<span style="color:#f92672">h2</span>&gt;
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">&lt;!-- A compléter --&gt;</span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;???&#34;</span>&gt; <span style="color:#75715e">&lt;!-- afficher chat.png --&gt;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h2</span>&gt;Image externe (chemin absolu)&lt;/<span style="color:#f92672">h2</span>&gt;
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">&lt;!-- A compléter --&gt;</span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;???&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Image externe&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">&lt;!-- A compléter --&gt;</span>
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;???&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;</span></span></code></pre></div>
-<ul>
-<li><strong>Fichier <code>style.css</code></strong></li>
-</ul>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#75715e">/* À compléter */</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">body</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">font-family</span>: Arial, <span style="color:#66d9ef">sans-serif</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#eef</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-<ul>
-<li><strong>Fichier <code>theme.css</code></strong></li>
-</ul>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#75715e">/* À compléter */</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">body</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-repeat</span>: <span style="color:#66d9ef">no-repeat</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-position</span>: <span style="color:#66d9ef">top</span> <span style="color:#66d9ef">right</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-size</span>: <span style="color:#ae81ff">150</span><span style="color:#66d9ef">px</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-<ol>
-<li>
-<p>Créer un dossier <code>atelier_chemins/</code> avec la structure suivante :</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>atelier_chemins/
-│── index.html
-│── style.css
-├── images/
-│    └── chat.png
-└── css/
-     └── theme.css</code></pre></div>
-</li>
-<li>
-<p>Dans <code>index.html</code>, complétez et tester :</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- A compléter --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;???&#34;</span>&gt; <span style="color:#75715e">&lt;!-- afficher chat.png --&gt;</span></span></span></code></pre></div>
-</li>
-</ol>
-<ul>
-<li>Essayer avec un chemin relatif.</li>
-<li>Essayer avec un chemin absolu (vers une image en ligne, ex. <code>https://picsum.photos/200</code>).</li>
-</ul>
-<ol start="3">
-<li>Dans <code>index.html</code>, lier le fichier <code>style.css</code>.</li>
-<li>Dans <code>style.css</code>, ajouter les règles suivantes pour le sélecteur <code>body</code> :
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">body</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">lightblue</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-image</span>: url(<span style="color:#e6db74">&#34;images/chat.png&#34;</span>); <span style="color:#75715e">/* volontairement faux */</span>
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-</li>
-<li>→ Observer l’erreur !</li>
-<li>Corriger avec le bon chemin relatif</li>
-</ol>
-<p><strong>Discussion</strong> : pourquoi l’erreur ?</p>
-<ol start="7">
-<li>
-<p>Dans <code>css/theme.css</code>, ajouter :</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">body</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-image</span>: url(<span style="color:#e6db74">&#34;./images/chat.png&#34;</span>);
-</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
-</li>
-<li>
-<p>Lier <code>theme.css</code> dans <code>index.html</code>.</p>
-</li>
-<li>
-<p>Vérifier si l’image s’affiche.</p>
-</li>
-<li>
-<p>Corriger avec le bon chemin relatif.</p>
-</li>
-</ol>
-<hr>
-<h2 id="défi--chemins-relatifs-et-absolus">Défi – Chemins relatifs et absolus</h2>
-<ol>
-<li>
-<p>Créez un dossier de travail nommé <strong>ArtGallerie</strong>.</p>
-</li>
-<li>
-<p>À l’intérieur, créez trois fichiers HTML :</p>
-<ul>
-<li><code>index.html</code></li>
-<li><code>galerie.html</code></li>
-<li><code>contact.html</code></li>
-</ul>
-</li>
-<li>
-<p>Vous devez organiser vos fichiers et utiliser <strong>correctement les chemins relatifs et absolus</strong> pour relier les pages et afficher les images.</p>
-</li>
-</ol>
-<hr>
-<h2 id="page-principale--indexhtml">Page principale – <code>index.html</code></h2>
-<ul>
-<li>
-<p>Doit contenir un <strong>titre principal</strong> (ex. : votre nom).</p>
-</li>
-<li>
-<p>Ajoutez deux <strong>liens relatifs</strong> vers :</p>
-<ul>
-<li>la page <code>galerie.html</code></li>
-<li>la page <code>contact.html</code></li>
-</ul>
-</li>
-<li>
-<p>Ajoutez aussi un <strong>lien absolu</strong> vers un site externe de votre choix (par exemple : <code>https://www.mbam.qc.ca/</code>).</p>
-</li>
-</ul>
-<h2 id="page-galerie--galeriehtml">Page galerie – <code>galerie.html</code></h2>
-<ul>
-<li>
-<p>Ajoutez un <strong>titre “Galerie”</strong>.</p>
-</li>
-<li>
-<p>Ajoutez au moins <strong>3 images</strong> :</p>
-<ul>
-<li>2 images avec un <strong>chemin relatif</strong> (par exemple, placez vos images dans un dossier <code>images/</code> et utilisez <code>src=&quot;images/...&quot;</code>).</li>
-<li>1 image avec un <strong>chemin absolu</strong> (par exemple une image libre de droit en ligne).</li>
-</ul>
-</li>
-<li>
-<p>Ajoutez un <strong>lien relatif</strong> pour retourner vers <code>index.html</code>.</p>
-</li>
-</ul>
-<h2 id="page-contact--contacthtml">Page contact – <code>contact.html</code></h2>
-<ul>
-<li>
-<p>Ajoutez un <strong>titre “Contact”</strong>.</p>
-</li>
-<li>
-<p>Ajoutez une liste avec 2 éléments :</p>
-<ul>
-<li>un lien absolu de type <code>mailto:</code> vers une fausse adresse courriel.</li>
-<li>un lien absolu de type <code>tel:</code> vers un faux numéro de téléphone.</li>
-</ul>
-</li>
-<li>
-<p>Ajoutez un <strong>lien relatif</strong> pour retourner vers <code>index.html</code>.</p>
-</li>
-</ul>
-<hr>
-<h2 id="conclusion">Conclusion</h2>
-<ul>
-<li>Quand utiliser <strong>chemin absolu</strong> ? → ressources externes, URLs fixes.</li>
-<li>Quand utiliser <strong>chemin relatif</strong> ? → à l’intérieur du projet.</li>
-<li>Astuce : toujours vérifier <strong>à partir du fichier actuel</strong>.</li>
-</ul>
-
-  <footer class="footline">
-  </footer>
-</article>
         </div>
       </main>
     </div>
-    <aside id="R-sidebar" class="default-animation">
-      <div id="R-header-topbar" class="default-animation"></div>
-      <div id="R-header-wrapper" class="default-animation">
-        <div id="R-header" class="default-animation">
-<a href="/">
-	<img src="/images/logo.png">
-</a>
-
-
-        </div>
-        <search><form action="/search/index.html" method="get">
-          <div class="searchbox default-animation">
-            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
-            <label class="a11y-only" for="R-search-by">Search</label>
-            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
-            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
-          </div>
-        </form></search>
-      </div>
-      <div id="R-homelinks" class="default-animation homelinks">
-        <div class="R-menu-divider default-animation">
-          <hr class="padding">
-        </div>
-        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
-          <ul class="space collapsible-menu">
-            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
-          </ul>
-        </div>
-        <div class="R-menu-divider default-animation">
-          <hr class="padding">
-        </div>
-        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
-          <ul class="">
-          </ul>
-        </div>
-        <div class="R-menu-divider default-animation">
-          <hr class="padding">
-        </div>
-      </div>
-      <div id="R-content-wrapper" class="highlightable">
-        <div class="R-sidebarmenu R-shortcutmenu-main">
-          <ul class="enlarge morespace collapsible-menu">
-            <li class="" data-nav-id="/zc6/index.html"><a class="padding" href="/zc6/index.html">Soutien pour le ZC6</a><ul id="R-subsections-28fc7c7c7c86328eb843fd2c22a3a845" class="collapsible-menu"></ul></li>
-            <li class="parent " data-nav-id="/3e5/index.html"><a class="padding" href="/3e5/index.html">Soutien pour le 3E5</a><ul id="R-subsections-62b251c47d5546c8d117d60a33ea5060" class="collapsible-menu">
-            <li class="active " data-nav-id="/3e5/html-css/index.html"><a class="padding" href="/3e5/html-css/index.html">Chemins relatif vs absolu</a></li></ul></li>
-            <li class="" data-nav-id="/zf5-h26/index.html"><a class="padding" href="/zf5-h26/index.html">Soutien pour le 3C3 (à confirmer)</a></li>
-          </ul>
-        </div>
-        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
-          <ul class="space collapsible-menu">
-          </ul>
-        </div>
-        <div id="R-footer-margin"></div>
-        <div class="R-menu-divider default-animation">
-          <hr class="padding">
-        </div>
-        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
-          <ul class="">
-          </ul>
-        </div>
-<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
-      </div>
-    </aside>
-    <script src="/js/clipboard/clipboard.min.js?1760826204" defer></script>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1760826204" defer></script>
-    <script src="/js/theme.min.js?1760826204" defer></script>
+    <script src="/js/clipboard/clipboard.min.js?1762801631" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1762801631" defer></script>
+    <script src="/js/theme.min.js?1762801631" defer></script>
   </body>
 </html>
